@@ -1,0 +1,92 @@
+# =============================================================================
+# CELL 0 -- SETUP
+# ชุดนี้ต้อง "เหมือนกันทุกตัวอักษร" (byte-identical) ในโน้ตบุ๊กทั้ง 10 ตอน
+# ตรวจสอบด้วย: python3 scripts/check_cell0.py
+# =============================================================================
+# ทำไมต้องเหมือนกันทุกตอน: ถ้า setup ต่างกันแม้นิดเดียว ตัวเลขที่วัดได้จาก
+# แต่ละตอนจะเปรียบเทียบกันไม่ได้ ซึ่งทำให้ทั้งซีรีส์นี้ไร้ความหมาย
+# -----------------------------------------------------------------------------
+
+# 1) ติดตั้ง dependencies (pin เวอร์ชันไว้ทั้งหมด เพื่อให้ผลลัพธ์ทำซ้ำได้)
+#    หมายเหตุ: เราจงใจ "ไม่" ติดตั้ง torch ใหม่ เพราะ Colab มี torch ที่ build
+#    มาให้ตรงกับ CUDA driver อยู่แล้ว การ pip install torch ทับคือสาเหตุอันดับ
+#    หนึ่งที่ทำให้ notebook พังบน Colab
+!pip install -q \
+    "transformers==4.51.3" \
+    "accelerate==1.6.0" \
+    "datasets==3.5.0" \
+    "peft==0.15.1" \
+    "trl==0.16.1" \
+    "bitsandbytes==0.45.5" \
+    "sentencepiece==0.2.0" \
+    "matplotlib==3.10.1"
+
+# 2) ติดตั้งฟอนต์ไทยให้ matplotlib (ไม่งั้นกราฟจะขึ้นเป็นสี่เหลี่ยม tofu)
+!apt-get install -y fonts-thai-tlwg > /dev/null 2>&1
+
+# 3) ดึง repo (ได้ทั้งแพ็กเกจ kobeval และชุดข้อมูล KobEval-TH)
+import os
+if not os.path.exists("/content/thai-llm-tutorials"):
+    !git clone -q https://github.com/kobkrit/thai-llm-tutorials.git /content/thai-llm-tutorials
+!pip install -q -e /content/thai-llm-tutorials
+
+import random
+import numpy as np
+import torch
+
+# 4) ยืนยันว่ามี GPU จริง -- ถ้าไม่มีให้หยุดตรงนี้เลย ดีกว่าไปพังตอน train
+assert torch.cuda.is_available(), (
+    "ไม่พบ GPU! ไปที่ Runtime > Change runtime type > Hardware accelerator > GPU "
+    "แล้วรันเซลล์นี้ใหม่"
+)
+
+GPU_NAME = torch.cuda.get_device_name(0)
+CAPABILITY = torch.cuda.get_device_capability(0)
+VRAM_GB = torch.cuda.get_device_properties(0).total_memory / (1024 ** 3)
+SUPPORTS_BF16 = torch.cuda.is_bf16_supported()
+
+print(f"GPU            : {GPU_NAME}")
+print(f"Compute cap.   : sm_{CAPABILITY[0]}{CAPABILITY[1]}")
+print(f"VRAM           : {VRAM_GB:.1f} GB")
+print(f"SUPPORTS_BF16  : {SUPPORTS_BF16}")
+print(f"torch          : {torch.__version__}")
+
+# -----------------------------------------------------------------------------
+# 5) จุดสำคัญที่สุดของเซลล์นี้ -- อ่านให้ครบ
+#
+# ถ้าคุณได้ Tesla T4 (ซึ่งเป็นค่าปกติของ Colab ฟรี) คุณจะเห็น
+#     SUPPORTS_BF16 : False
+#
+# T4 เป็นสถาปัตยกรรม Turing (sm_75) ซึ่ง "ไม่รองรับ" สองอย่างนี้:
+#   - bfloat16  -> ต้องใช้ float16 แทน
+#   - FlashAttention-2 -> ต้องใช้ sdpa แทน
+#
+# กับดักที่คนเจอบ่อยที่สุด: config ของ Qwen3-0.6B ระบุ torch_dtype: bfloat16
+# ไว้ในไฟล์ ดังนั้นถ้าเขียน torch_dtype="auto" transformers จะเชื่อ config
+# แล้วโหลดเป็น bf16 บนการ์ดที่ไม่รองรับ ผลคือได้ NaN, loss ไม่ลด หรือ
+# โมเดลพ่นข้อความมั่ว โดยไม่มี error ฟ้องให้เห็นเลย
+#
+# เราจึงกำหนดค่าพวกนี้เอง "อย่างชัดเจน" ทุกครั้ง ไม่พึ่ง auto
+# -----------------------------------------------------------------------------
+DTYPE = torch.bfloat16 if SUPPORTS_BF16 else torch.float16
+ATTN_IMPL = "sdpa"          # ห้ามใช้ flash_attention_2 บน T4
+USE_FP16 = not SUPPORTS_BF16  # ส่งเข้า TrainingArguments: fp16=USE_FP16, bf16=SUPPORTS_BF16
+
+print(f"\n--> DTYPE      : {DTYPE}")
+print(f"--> ATTN_IMPL  : {ATTN_IMPL}")
+print(f"--> fp16={USE_FP16}, bf16={SUPPORTS_BF16}  (ใช้คู่นี้กับ TrainingArguments)")
+
+# 6) ตั้ง seed ทุกตัวที่เกี่ยวข้อง เพื่อให้ผลลัพธ์ทำซ้ำได้
+SEED = 42
+random.seed(SEED)
+np.random.seed(SEED)
+torch.manual_seed(SEED)
+torch.cuda.manual_seed_all(SEED)
+os.environ["PYTHONHASHSEED"] = str(SEED)
+
+# 7) import kobeval -- ชุดวัดผลกลางที่ใช้เหมือนกันทั้ง 10 ตอน
+from kobeval import evaluate, compare, plot_before_after, th_ratio, wilson_ci
+from kobeval import EVAL_CONTRACT, verify_checksums
+
+print(f"\nkobeval contract: {EVAL_CONTRACT}")
+print(f"KobEval-TH checksum ok: {verify_checksums()['ok']}")

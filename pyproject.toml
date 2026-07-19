@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kobeval"
+version = "0.1.0"
+description = "Shared Thai LLM evaluation harness and the KobEval-TH benchmark, for the kobkrit.com tutorial series"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Kobkrit Viriyayudhakorn", email = "kobkrit@iapp.co.th" }]
+keywords = ["thai", "llm", "evaluation", "benchmark", "qwen3", "nlp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: Thai",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# Intentionally empty. The statistics and metrics layers are pure Python, so
+# `pip install kobeval` works on a CPU-only box for scoring and analysis.
+# evaluate() imports torch lazily and raises only if you actually call it.
+dependencies = []
+
+[project.optional-dependencies]
+eval = ["transformers>=4.51", "accelerate>=1.0", "numpy>=1.24"]
+plot = ["matplotlib>=3.7"]
+dev = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://kobkrit.com"
+Repository = "https://github.com/kobkrit/thai-llm-tutorials"
+
+[tool.setuptools]
+packages = ["kobeval"]
+
+[tool.setuptools.package-data]
+kobeval = ["../data/kobeval_th/*.jsonl", "../data/kobeval_th/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,18 @@
+{
+  "version": "kobeval-th-v1",
+  "n_items": 120,
+  "items_per_slice": {
+    "th_know.jsonl": 30,
+    "th_math.jsonl": 30,
+    "th_instr.jsonl": 30,
+    "th_safe.jsonl": 30
+  },
+  "license": "Apache-2.0",
+  "algorithm": "sha256",
+  "files": {
+    "th_know.jsonl": "6e92b4b89da24d81d435d82333e81daf593f481dbbac92a1c6dcc65685b5095a",
+    "th_math.jsonl": "db2aa7dafd68eb0c584387316c9d2694a64be7e56676c11b9aa95481c3930abd",
+    "th_instr.jsonl": "11605c610657f43096ddcbd7558784b045b6cb89dc7ad6baaec69dbdc1275b61",
+    "th_safe.jsonl": "e39c218551c6c9b350ba341913c1be151b3e060fd7d37adb693a3179e0686a29"
+  }
+}

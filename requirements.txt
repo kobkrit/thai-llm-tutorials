@@ -1,0 +1,43 @@
+# =============================================================================
+# Pinned dependencies for the Thai LLM tutorial series
+# Target: Google Colab free tier -- Tesla T4, Turing (sm_75), 16 GB VRAM
+# =============================================================================
+#
+# NOTE ON torch
+# -------------
+# torch is deliberately NOT pinned here. Colab ships a torch build matched to
+# its own CUDA driver, and `pip install torch==x.y.z` over the top is the single
+# most common way these notebooks break. Use whatever torch Colab provides
+# (>= 2.1 is required for attn_implementation="sdpa").
+#
+# If you are running locally rather than on Colab, install torch first, from
+# https://pytorch.org, matching your CUDA version -- then install this file.
+#
+# T4 CONSTRAINTS baked into these choices
+# ---------------------------------------
+#   * NO bfloat16          -> use torch.float16 and fp16=True
+#   * NO FlashAttention-2  -> use attn_implementation="sdpa"
+# flash-attn is therefore absent from this file on purpose. Adding it will
+# either fail to build or fail at runtime on a T4.
+# =============================================================================
+
+# --- core modelling stack ---
+transformers==4.51.3        # >= 4.51 required for Qwen3 architecture support
+accelerate==1.6.0
+datasets==3.5.0
+sentencepiece==0.2.0
+safetensors==0.5.3
+
+# --- fine-tuning (posts covering LoRA / SFT / DPO) ---
+peft==0.15.1
+trl==0.16.1
+bitsandbytes==0.45.5        # 4-bit/8-bit works on sm_75; int8 tensor cores present
+
+# --- evaluation, plotting, notebooks ---
+numpy==2.2.4
+matplotlib==3.10.1
+pandas==2.2.3
+huggingface-hub==0.30.2
+
+# --- development / CI only (not needed to run the notebooks) ---
+pytest==8.3.5
