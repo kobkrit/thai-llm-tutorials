@@ -41,8 +41,17 @@ benchmark, so the numbers across all ten posts are directly comparable.*
 | 9 | RAG ภาษาไทย: เมื่อโมเดลเล็กต้องการความรู้ | TH-KNOW | `09-thai-rag` | 🚧 กำลังเขียน |
 | 10 | ประเมินผลอย่างซื่อสัตย์: contamination, CI, McNemar | ทุก slice | `10-honest-eval` | 🚧 กำลังเขียน |
 
-> **หมายเหตุ:** ขณะนี้มีเฉพาะโน้ตบุ๊กแม่แบบ (`_template.ipynb`) ในรีโพ
-> โน้ตบุ๊กแต่ละตอนจะทยอยเพิ่มเข้ามาพร้อมกับบทความบน kobkrit.com
+### โน้ตบุ๊กที่เผยแพร่แล้ว (รันได้ทันที)
+
+| ตอนที่เผยแพร่บน kobkrit.com | สิ่งที่วัด | Colab | สถานะ |
+|---|---|---|---|
+| [LLM 1/10] **Continue Pretraining** — สอนความรู้ใหม่ให้ LLM ภาษาไทย | domain/general held-out PPL, TH-KNOW, tokens/char | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/01_continue_pretraining.ipynb) | ✅ พร้อมใช้ |
+| [LLM 4/10] **DPO** — เมื่อโมเดลภาษากลายเป็น reward model ของตัวเอง | preference acc + Wilson CI, reward margin, `th_ratio`, TH-INSTR | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/04_dpo.ipynb) | ✅ พร้อมใช้ |
+
+> **หมายเหตุ:** ตารางสารบัญด้านบนคือ *แผน* ของซีรีส์ ส่วนตารางนี้คือโน้ตบุ๊กที่
+> **มีอยู่จริงในรีโพและรันได้แล้ว** ลำดับตอนที่เผยแพร่จริงบน kobkrit.com
+> อาจไม่ตรงกับลำดับในแผน
+> โน้ตบุ๊กที่เหลือจะทยอยเพิ่มเข้ามาพร้อมกับบทความ
 > ปุ่ม Colab ของตอนที่ยังไม่เผยแพร่จึงยังไม่มีลิงก์ เพื่อไม่ให้เกิดลิงก์เสีย
 
 ---
