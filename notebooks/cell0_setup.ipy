@@ -31,6 +31,11 @@ if not os.path.exists(REPO_DIR):
     !git clone -q https://github.com/kobkrit/thai-llm-tutorials.git /content/thai-llm-tutorials
 !pip install -q -e /content/thai-llm-tutorials
 
+# ลดการแตกกระจายของหน่วยความจำ (fragmentation) -- ต้องตั้งก่อน torch แตะ CUDA
+# T4 มี VRAM จำกัด พอ tensor ก้อนใหญ่ถูกจอง/คืนสลับกัน จะเกิดช่องว่างที่ใช้ต่อไม่ได้
+# จน OOM ทั้งที่ยังเหลือที่รวม ๆ อยู่ (ข้อความ error ของ PyTorch เองก็แนะนำค่านี้)
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+
 import random
 import numpy as np
 import torch
