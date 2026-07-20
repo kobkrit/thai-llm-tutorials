@@ -1,0 +1,313 @@
+
+===== cell 0 (attempt 1, 57s) =====
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/10.4 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/10.4 MB[0m [31m62.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━[0m [32m9.6/10.4 MB[0m [31m140.7 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m10.4/10.4 MB[0m [31m156.2 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10.4/10.4 MB[0m [31m99.2 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/354.7 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m354.7/354.7 kB[0m [31m36.6 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/491.2 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m491.2/491.2 kB[0m [31m43.5 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/411.0 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m411.0/411.0 kB[0m [31m40.9 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/336.4 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m336.4/336.4 kB[0m [31m37.3 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/76.1 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.9/76.1 MB[0m [31m267.2 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m17.7/76.1 MB[0m [31m251.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m25.5/76.1 MB[0m [31m222.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m33.2/76.1 MB[0m [31m222.0 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m40.9/76.1 MB[0m [31m221.2 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━[0m [32m48.6/76.1 MB[0m [31m221.2 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m56.0/76.1 MB[0m [31m200.2 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m62.1/76.1 MB[0m [31m171.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m68.7/76.1 MB[0m [31m161.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m75.3/76.1 MB[0m [31m182.5 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m76.1/76.1 MB[0m [31m12.4 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.3 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/1.3 MB[0m [31m83.9 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/8.6 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m7.2/8.6 MB[0m [31m216.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m8.6/8.6 MB[0m [31m208.5 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.6/8.6 MB[0m [31m114.6 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/183.9 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183.9/183.9 kB[0m [31m22.1 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/566.4 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m566.4/566.4 kB[0m [31m51.6 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.1 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.1/3.1 MB[0m [31m107.8 MB/s[0m eta [36m0:00:00[0m
+[?25h[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2024.12.0 which is incompatible.
+gradio 6.20.0 requires huggingface-hub<2.0,>=1.2.0, but you have huggingface-hub 0.36.2 which is incompatible.[0m[31m
+[0m  Installing build dependencies ... [?25l[?25hdone
+  Checking if build backend supports build_editable ... [?25l[?25hdone
+  Getting requirements to build editable ... [?25l[?25hdone
+  Preparing editable metadata (pyproject.toml) ... [?25l[?25hdone
+  Building editable for kobeval (pyproject.toml) ... [?25l[?25hdone
+GPU            : Tesla T4
+Compute cap.   : sm_75
+VRAM           : 14.6 GB
+SUPPORTS_BF16  : False   (native; torch บอกว่า True เพราะนับ emulation ด้วย)
+torch          : 2.11.0+cu128
+
+--> DTYPE      : torch.float16
+--> ATTN_IMPL  : sdpa
+--> fp16=True, bf16=False  (ใช้คู่นี้กับ TrainingArguments)
+Thai font      : Loma
+
+kobeval contract: {'do_sample': False, 'max_new_tokens': 256, 'enable_thinking': False, 'seed': 42, 'version': 'kobeval-th-v1'}
+KobEval-TH checksum ok: True
+
+
+===== cell 1 (attempt 1, 227s) =====
+tokenizer_config.json: 0.00B [00:00, ?B/s]
+vocab.json: 0.00B [00:00, ?B/s]
+merges.txt: 0.00B [00:00, ?B/s]
+tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]
+config.json:   0%|          | 0.00/726 [00:00<?, ?B/s]
+model.safetensors:   0%|          | 0.00/1.50G [00:00<?, ?B/s]
+generation_config.json:   0%|          | 0.00/239 [00:00<?, ?B/s]
+โหลดโมเดลแล้ว: Qwen/Qwen3-0.6B
+dtype จริงของ parameter: torch.float16
+จำนวนพารามิเตอร์: 596.0M
+--- ค่าจริงจาก config ของ Qwen3-0.6B (ไม่ใช่ค่าที่จำมา) ---
+  hidden_size             : 1024
+  intermediate_size       : 3072
+  num_hidden_layers       : 28
+  num_attention_heads     : 16
+  num_key_value_heads     : 8
+  head_dim                : 128
+  vocab_size              : 151936
+
+VRAM ที่ใช้หลังโหลดโมเดลฐาน: 1.110 GB
+  TH-INSTR: 10/30
+  TH-INSTR: 20/30
+  TH-INSTR: 30/30
+
+ใช้เวลาวัด baseline: 190 วินาที
+TH-INSTR  acc=0.733 [95% CI 0.556-0.858]  th_ratio=0.93  len=282
+
+รวมทุก slice: acc=0.733  th_ratio=0.93
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:104: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+You are not authenticated with the Hugging Face Hub in this notebook.
+If the error persists, please let us know by opening an issue on GitHub (https://github.com/huggingface/huggingface_hub/issues/new).
+  warnings.warn(
+
+
+===== cell 2 (attempt 1, 5s) =====
+พารามิเตอร์ฐาน (นับจริงจากโมเดล) : 596,049,920
+adapter ต่อเลเยอร์ที่ r=16     : 360,448
+adapter ทั้งโมเดล (28 เลเยอร์)   : 10,092,544
+สัดส่วน (ตัวหาร = ฐานล้วน)        : 1.69%   <- เลข 1.69% ในบทความ
+สัดส่วน (ตัวหาร = ฐาน+adapter)    : 1.67%   <- นิยามที่ peft ใช้พิมพ์
+"ต่ำกว่า 1%" เป็นจริงก็ต่อเมื่อ r <= 9 เท่านั้น (เราใช้ r=16)
+<Figure size 1150x430 with 2 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmp7v4rhob2.png]
+บันทึกรูปแล้ว: fig_lora_math.png
+16 ทิศทางแรกของ ΔW สังเคราะห์ถือพลังงาน 97.6% -- ถ้า update จริงหน้าตาแบบนี้ adapter rank 16 ก็เก็บเนื้อหาไว้ได้เกือบหมด
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+WARNING:matplotlib.mathtext:Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+
+
+===== cell 3 (attempt 1, 28s) =====
+README.md: 0.00B [00:00, ?B/s]
+data/train-00000-of-00002.parquet:   0%|          | 0.00/120M [00:00<?, ?B/s]
+data/train-00001-of-00002.parquet:   0%|          | 0.00/119M [00:00<?, ?B/s]
+Generating train split:   0%|          | 0/118898 [00:00<?, ? examples/s]
+wangchanx columns: ['instruction', 'context', 'output', 'type', 'context_length', 'rating', 'qc_rationale']  n=118898
+ใช้คอลัมน์: คำถาม='instruction'  คำตอบ='output'
+ผ่านการคัดกรองความยาวอักขระ: 6639
+tokenize 6631 ตัวอย่างใช้เวลา 7 วินาที
+ตัวอย่างที่ยาวเกินงบ 768 token: 7 (0.1%) -> คัดทิ้งก่อนเทรน (กับดักข้อ 3)
+
+พิธีที่ควรเป็นนิสัย: decode ตัวอย่างแรกออกมาดูด้วยตา ---------------------
+<|im_start|>user
+กรุณาสรุปเนื้อหาในรูปแบบของย่อหน้าจากข้อความที่กำหนด<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+การละเล่นท้องถิ่นนี้เรียกว่า 'ปิงปองคน' ซึ่งผู้เล่นจะโยนลูกปิงปองขึ้นสูงเหนือหัวราวหนึ่งช่วงตัวแล้วเอ่ยชื่อผู้เล่นคนอื่น ผู้ที่ถูกเรียกชื่อต้องวิ่งมารับลูกปิงปองที่กระเด้งขึ้นมาจากพื้นในครั้งเดียว ถ้ารับไม่ทัน ผู้ที่โยนจะได้ลูกปิงปองแล้วขว้างให้โดนผู้เล่นคนอื่น ผู้ที่โดนจะเสียน่
+------------------------------------------------------------------------------
+ตรวจ 50 ตัวอย่างแรก: template ปรากฏอย่างละครั้งเดียวต่อ turn -> ผ่าน
+
+ความยาวเฉลี่ยทั้งตัวอย่าง : 319 token
+ความยาวเฉลี่ยฝั่ง prompt : 64 token
+สัดส่วน token ฝั่ง prompt : 20.1%
+=> ถ้าเทรนโดยไม่ mask, 20% ของพจน์ใน loss คือการหัดเขียนคำถามของผู้ใช้
+<Figure size 850x280 with 1 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmpihtvf2yu.png]
+บันทึกรูปแล้ว: fig_mask_accounting.png
+
+
+===== cell 4 (attempt 1, 5s) =====
+trainable params: 10,092,544 || all params: 606,142,464 || trainable%: 1.6650
+
+assert ผ่าน: adapter มี 10,092,544 พารามิเตอร์ ตรงกับ r(d+k) ที่คำนวณด้วยมือ
+  % เทียบฐานล้วน (นิยามบทความ)  : 1.69%
+  % เทียบฐาน+adapter (นิยาม peft): 1.67%
+
+cast adapter เป็น fp32 ไป 0 tensors
+VRAM ก่อนติด adapter : 1.110 GB
+VRAM หลังติด adapter : 1.156 GB (+0.046 GB)
+
+B=0 ทำให้เปิด/ปิด adapter ได้ logits เท่ากัน: True
+การเทรนจึงออกตัวจาก base เป๊ะ ๆ -- และ 'ปิด adapter' คือปุ่มย้อนกลับ
+ที่เราจะใช้วัด 'ก่อน SFT' ในหัวข้อ 8 และที่ตอนที่ 3-4 ใช้สร้าง reference model ฟรี ๆ
+
+
+===== cell 5 (attempt 1, 8s) =====
+trl 0.16.1 -> เส้นทาง completion mask ที่ใช้: collator
+
+pad token: '<|endoftext|>' (id=151643)
+eos token: '<|im_end|>' (id=151645)
+pad != eos -> eos ท้ายคำตอบจะไม่โดน mask ทิ้ง (กับดักข้อ 1 ผ่าน)
+
+ตัวอย่างที่ใช้พิสูจน์ยาว 439 token
+  ถูก mask (-100)      : 36 token (ฝั่ง prompt + padding)
+  ถูกนับใน loss        : 403 token (ฝั่งคำตอบ)
+  token แรกที่นับใน loss: ตำแหน่ง 36 -- อยู่ถัดจาก '<|im_start|>assistant\n' พอดี
+  12 token แรกที่นับ    : '<think>\n\n</think>\n\nการละเล่นท้องถิ'
+=> mask ทำงานตรงตามสมการ 3.1 จริง ไม่ใช่แค่เชื่อเอกสาร
+
+
+===== cell 6 (attempt 1, 1503s) =====
+Converting train dataset to ChatML:   0%|          | 0/4000 [00:00<?, ? 
+examples/s]
+Applying chat template to train dataset:   0%|          | 0/4000 [00:00<?, ? 
+examples/s]
+Tokenizing train dataset:   0%|          | 0/4000 [00:00<?, ? examples/s]
+Truncating train dataset:   0%|          | 0/4000 [00:00<?, ? examples/s]
+[ 2/250 : < :, Epoch 0.00/1]                                                    
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 3/250 00:04 < 18:42, 0.22 it/s, Epoch 0.01/1]                                 
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 4/250 00:09 < 18:48, 0.22 it/s, Epoch 0.01/1]                                 
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 5/250 00:12 < 17:36, 0.23 it/s, Epoch 0.02/1]                                 
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 6/250 00:17 < 17:57, 0.23 it/s, Epoch 0.02/1]                                 
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/kobkrit/.local/share/uv/tools/google-colab-cli/lib/python3.14/site-pa │
+│ ckages/colab_cli/commands/execution.py:216 in exec_command                   │
+│                                                                              │
+│   213 │   │   │   )                                                          │
+│   214 │   │   │   state.store.add(s)                                         │
+│   215 │   │   │                                                              │
+│ ❱ 216 │   │   │   outputs = runtime.execute_code(                            │
+│   217 │   │   │   │   code,                                                  │
+│   218 │   │   │   │   output_hook=lambda o: display_output(o, output_image), │
+│   219 │   │   │   │   timeout=timeout,                                       │
+│                                                                              │
+│ /Users/kobkrit/.local/share/uv/tools/google-colab-cli/lib/python3.14/site-pa │
+│ ckages/colab_cli/runtime.py:221 in execute_code                              │
+│                                                                              │
+│   218 │   │   │   │   │   │   if idx < len(outputs):                         │
+│   219 │   │   │   │   │   │   │   output_hook(outputs[idx])                  │
+│   220 │   │   │                                                              │
+│ ❱ 221 │   │   │   reply = self.kernel_client.execute_interactive(            │
+│   222 │   │   │   │   code, output_hook=wrapped_output_hook, **kwargs        │
+│   223 │   │   │   )                                                          │
+│   224 │   │   │   # execute_interactive returns the raw reply message        │
+│                                                                              │
+│ /Users/kobkrit/.local/share/uv/tools/google-colab-cli/lib/python3.14/site-pa │
+│ ckages/jupyter_kernel_client/client.py:364 in execute_interactive            │
+│                                                                              │
+│   361 │   │   │   The reply message for this request                         │
+│   362 │   │   """                                                            │
+│   363 │   │   self._set_variables(variables)                                 │
+│ ❱ 364 │   │   return self._manager.client.execute_interactive(               │
+│   365 │   │   │   code,                                                      │
+│   366 │   │   │   silent=silent,                                             │
+│   367 │   │   │   store_history=store_history,                               │
+│                                                                              │
+│ /Users/kobkrit/.local/share/uv/tools/google-colab-cli/lib/python3.14/site-pa │
+│ ckages/jupyter_kernel_client/wsclient.py:1073 in execute_interactive         │
+│                                                                              │
+│   1070 │   │   │   # wait for output and redisplay it                        │
+│   1071 │   │   │   while True:                                               │
+│   1072 │   │   │   │   if not self.connection_ready.is_set():                │
+│ ❱ 1073 │   │   │   │   │   raise RuntimeError("Connection was lost.")        │
+│   1074 │   │   │   │                                                         │
+│   1075 │   │   │   │   if timeout is not None:                               │
+│   1076 │   │   │   │   │   timeout = max(0, deadline - time.monotonic())     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RuntimeError: Connection was lost.
+
