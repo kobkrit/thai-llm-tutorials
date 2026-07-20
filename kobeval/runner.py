@@ -46,13 +46,48 @@ EVAL_CONTRACT = {
 }
 
 
-def _build_prompt(tokenizer, item: dict, enable_thinking: bool, system: str | None) -> str:
-    """Render one item through the model's chat template.
+# Few-shot exemplars for base models. Deliberately hand-written here and NOT
+# drawn from KobEval-TH: using benchmark items as exemplars would be leakage.
+_FEWSHOT_TH = [
+    ("ประเทศไทยมีกี่จังหวัด ตอบสั้น ๆ", "77 จังหวัด"),
+    ("แม่น้ำเจ้าพระยาไหลลงสู่ทะเลใด ตอบสั้น ๆ", "อ่าวไทย"),
+    ("รัชกาลที่ 5 มีพระนามว่าอะไร ตอบสั้น ๆ", "พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว"),
+]
 
-    Falls back to the raw prompt for base models (``Qwen3-0.6B-Base`` has no
-    chat template) -- that fallback is deliberate and is the reason post 2 can
-    compare a base model against an instruct model on the same benchmark.
+
+def is_base_model(model, tokenizer) -> bool:
+    """True when the model has not been instruction-tuned.
+
+    Do NOT infer this from the absence of a chat template: ``Qwen3-0.6B-Base``
+    ships a full 4 KB chat template even though it was never trained on that
+    format. Feeding a base model ``<|im_start|>user ...`` produces fluent
+    nonsense -- which is exactly how TH-KNOW read 0.0% with th_ratio 0.00 while
+    looking like a legitimate null result.
     """
+    name = ""
+    for obj in (model, getattr(model, "config", None)):
+        for attr in ("name_or_path", "_name_or_path"):
+            name = name or str(getattr(obj, attr, "") or "")
+    return name.lower().rstrip("/").endswith("-base")
+
+
+def _build_prompt(
+    tokenizer,
+    item: dict,
+    enable_thinking: bool,
+    system: str | None,
+    base_model: bool = False,
+) -> str:
+    """Render one item for the model.
+
+    Instruct models get the chat template. Base models get a plain few-shot
+    completion prompt, which is what they were actually trained to continue and
+    what every serious harness (lm-evaluation-harness included) uses for them.
+    """
+    if base_model:
+        shots = "\n\n".join(f"คำถาม: {q}\nคำตอบ: {a}" for q, a in _FEWSHOT_TH)
+        return f"{shots}\n\nคำถาม: {item['prompt']}\nคำตอบ:"
+
     messages = []
     if system:
         messages.append({"role": "system", "content": system})
@@ -72,6 +107,19 @@ def _build_prompt(tokenizer, item: dict, enable_thinking: bool, system: str | No
                 messages, tokenize=False, add_generation_prompt=True
             )
     return item["prompt"]
+
+
+def _truncate_fewshot(text: str) -> str:
+    """Keep only the first answer from a few-shot completion.
+
+    A base model happily continues the pattern and invents the next
+    "คำถาม: ... คำตอบ: ..." pair. Without this, the grader sees the whole
+    continuation and marks a correct answer wrong.
+    """
+    for stop in ("\nคำถาม:", "\nQuestion:", "\n\n"):
+        if stop in text:
+            text = text.split(stop, 1)[0]
+    return text.strip()
 
 
 def _strip_thinking(text: str) -> str:
@@ -163,6 +211,7 @@ def evaluate(
     extra: dict | None = None,
     progress: bool = True,
     generate_fn: Callable[..., str] | None = None,
+    base_model: bool | None = None,
 ) -> dict:
     """Run KobEval-TH and return a report dict (also written to ``out_path``).
 
@@ -212,14 +261,21 @@ def evaluate(
     data = load_slices(slice_names)
     started = time.time()
     slice_reports: Dict[str, dict] = {}
+    # Base models must be prompted few-shot, not through a chat template they
+    # were never trained on. Auto-detect unless the caller is explicit.
+    if base_model is None:
+        base_model = is_base_model(model, tokenizer)
+
     all_records: List[dict] = []
 
     for slice_name in slice_names:
         items = data[slice_name]
         records = []
         for idx, item in enumerate(items, 1):
-            prompt = _build_prompt(tokenizer, item, enable_thinking, system)
+            prompt = _build_prompt(tokenizer, item, enable_thinking, system, base_model)
             output = gen(prompt)
+            if base_model:
+                output = _truncate_fewshot(output)
 
             if slice_name == "TH-KNOW":
                 correct, detail = grade_know(item, output), {}
