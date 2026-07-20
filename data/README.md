@@ -5,7 +5,7 @@
 *A Thai-language LLM evaluation set: 120 items across 4 fixed slices of 30.*
 
 - **เวอร์ชัน / Version:** `kobeval-th-v1`
-- **สัญญาอนุญาต / Licence:** Apache-2.0
+- **สัญญาอนุญาต / Licence:** CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - **ผู้จัดทำ / Author:** ดร.กอบกฤตย์ วิริยะยุทธกร (Dr. Kobkrit Viriyayudhakorn)
 - **แหล่งอ้างอิง / Home:** [kobkrit.com](https://kobkrit.com) · [github.com/kobkrit/thai-llm-tutorials](https://github.com/kobkrit/thai-llm-tutorials)
 
@@ -158,7 +158,7 @@ python3 -c "from kobeval import verify_checksums; print(verify_checksums())"
   title  = {KobEval-TH: A Compact Thai Evaluation Suite for Small Language Models},
   author = {Viriyayudhakorn, Kobkrit},
   year   = {2026},
-  note   = {Version kobeval-th-v1, Apache-2.0},
+  note   = {Version kobeval-th-v1, CC BY-NC-SA 4.0},
   url    = {https://github.com/kobkrit/thai-llm-tutorials}
 }
 ```

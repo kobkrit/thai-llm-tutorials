@@ -38,7 +38,7 @@ def main() -> int:
         "version": VERSION,
         "n_items": sum(counts.values()),
         "items_per_slice": counts,
-        "license": "Apache-2.0",
+        "license": "CC BY-NC-SA 4.0",
         "algorithm": "sha256",
         "files": files,
     }
