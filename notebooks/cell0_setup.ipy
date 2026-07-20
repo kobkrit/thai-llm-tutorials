@@ -26,7 +26,8 @@
 
 # 3) ดึง repo (ได้ทั้งแพ็กเกจ kobeval และชุดข้อมูล KobEval-TH)
 import os
-if not os.path.exists("/content/thai-llm-tutorials"):
+REPO_DIR = "/content/thai-llm-tutorials"
+if not os.path.exists(REPO_DIR):
     !git clone -q https://github.com/kobkrit/thai-llm-tutorials.git /content/thai-llm-tutorials
 !pip install -q -e /content/thai-llm-tutorials
 
@@ -43,19 +44,28 @@ assert torch.cuda.is_available(), (
 GPU_NAME = torch.cuda.get_device_name(0)
 CAPABILITY = torch.cuda.get_device_capability(0)
 VRAM_GB = torch.cuda.get_device_properties(0).total_memory / (1024 ** 3)
-SUPPORTS_BF16 = torch.cuda.is_bf16_supported()
+# bf16 "แบบมีฮาร์ดแวร์รองรับจริง" เริ่มที่ Ampere (sm_80) ขึ้นไปเท่านั้น
+#
+# หมายเหตุสำคัญ: torch.cuda.is_bf16_supported() ตอบ True บน T4 (sm_75) ด้วย
+# ตั้งแต่ torch รุ่นใหม่ ๆ เพราะมันนับ "การจำลอง (emulation)" ว่ารองรับด้วย
+# ซึ่งช้ากว่า fp16 มากและไม่ใช่สิ่งที่เราต้องการ เราจึงเช็ค compute capability
+# ตรง ๆ แทน -- นี่คือกับดักจริงที่เจอตอนรันบน Colab
+NATIVE_BF16 = CAPABILITY[0] >= 8
+SUPPORTS_BF16 = NATIVE_BF16          # ใช้ชื่อเดิมต่อได้ แต่ความหมายคือ "native"
 
 print(f"GPU            : {GPU_NAME}")
 print(f"Compute cap.   : sm_{CAPABILITY[0]}{CAPABILITY[1]}")
 print(f"VRAM           : {VRAM_GB:.1f} GB")
-print(f"SUPPORTS_BF16  : {SUPPORTS_BF16}")
+print(f"SUPPORTS_BF16  : {SUPPORTS_BF16}   (native; torch บอกว่า "
+      f"{torch.cuda.is_bf16_supported()} เพราะนับ emulation ด้วย)")
 print(f"torch          : {torch.__version__}")
 
 # -----------------------------------------------------------------------------
 # 5) จุดสำคัญที่สุดของเซลล์นี้ -- อ่านให้ครบ
 #
 # ถ้าคุณได้ Tesla T4 (ซึ่งเป็นค่าปกติของ Colab ฟรี) คุณจะเห็น
-#     SUPPORTS_BF16 : False
+#     SUPPORTS_BF16 : False   (native)
+# ทั้งที่ torch.cuda.is_bf16_supported() ตอบ True -- อย่าเชื่อค่านั้น
 #
 # T4 เป็นสถาปัตยกรรม Turing (sm_75) ซึ่ง "ไม่รองรับ" สองอย่างนี้:
 #   - bfloat16  -> ต้องใช้ float16 แทน
@@ -85,6 +95,12 @@ torch.cuda.manual_seed_all(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
 # 7) import kobeval -- ชุดวัดผลกลางที่ใช้เหมือนกันทั้ง 10 ตอน
+#    pip install -e ลงทะเบียนแพ็กเกจไว้แล้ว แต่ sys.path ของเคอร์เนลที่รันอยู่
+#    อาจยังไม่เห็น จึงใส่ path ของ repo เข้าไปตรง ๆ กันพลาด (idempotent)
+import sys
+if REPO_DIR not in sys.path:
+    sys.path.insert(0, REPO_DIR)
+
 from kobeval import evaluate, compare, plot_before_after, th_ratio, wilson_ci
 from kobeval import EVAL_CONTRACT, verify_checksums
 
