@@ -107,3 +107,25 @@ def build_domain_cloze(
                 "source_len": len(sent),
             })
     return items
+
+
+def cloze_fewshot_prompt(shots: List[dict], item: dict) -> str:
+    """Build a few-shot prompt whose exemplars are the SAME task as the question.
+
+    The first version of this eval scored 1/25 and 0/25 -- indistinguishable
+    from zero. The cause was not the model: the shared few-shot exemplars are
+    general-knowledge Q&A ("how many provinces does Thailand have?"), while the
+    question is fill-in-the-blank over a news sentence. The model was shown one
+    task three times and then asked a different one, so it had no idea what
+    shape of answer was wanted.
+
+    Exemplars must be drawn from items that are NOT scored.
+    """
+    blocks = []
+    for s in shots:
+        body = s["prompt"].split("\n\n", 1)[-1]
+        blocks.append(f"ข้อความ: {body}\nคำที่หายไป: {s['answers'][0]}")
+    body = item["prompt"].split("\n\n", 1)[-1]
+    blocks.append(f"ข้อความ: {body}\nคำที่หายไป:")
+    return ("เติมชื่อหน่วยงานที่หายไปในช่องว่าง ____ ให้ถูกต้อง\n\n"
+            + "\n\n".join(blocks))
