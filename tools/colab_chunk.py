@@ -60,6 +60,22 @@ def ensure_session(session: str, gpu: str) -> bool:
     return "READY" in out
 
 
+ARTIFACTS = ["results.json", "results_table.json", "results_before_after.json",
+             "samples.json", "tokens.json", "heldout_scores.json"]
+
+
+def harvest(session: str, dest: pathlib.Path) -> None:
+    """Copy result files off the VM after every cell.
+
+    Colab reclaims runtimes without warning. Notebook 02 lost 30 minutes of
+    completed training because its results.json only ever existed on a VM that
+    disappeared. Downloading after each cell makes progress durable.
+    """
+    dest.mkdir(parents=True, exist_ok=True)
+    for name in ARTIFACTS:
+        rc, _ = sh(["colab", "download", "-s", session, name, str(dest / name)], 180)
+
+
 def exec_src(session: str, src: str, timeout: int) -> tuple[int, str]:
     with tempfile.NamedTemporaryFile("w", suffix=".py", delete=False) as f:
         f.write(src)
@@ -131,6 +147,7 @@ def main() -> int:
                 print(f"[chunk] full log: {log}")
                 return 1
 
+            harvest(a.session, REPO / ".smoke" / f"nb{a.nb}")
             print(f"[chunk]   ok ({dt:.0f}s)" + (f" | {out.strip().splitlines()[-1][:90]}"
                                                  if out.strip() else ""), flush=True)
             break
