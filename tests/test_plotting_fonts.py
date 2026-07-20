@@ -26,16 +26,48 @@ def test_rescan_is_idempotent_and_safe():
     assert n2 == n1, "second rescan should register nothing new"
 
 
-def test_use_thai_font_keeps_dejavu_as_fallback():
-    """Thai font first, DejaVu behind it so beta/maths glyphs still resolve."""
+def test_font_family_is_a_list_for_per_glyph_fallback():
+    """font.family must be a LIST, not "sans-serif" + a font.sans-serif list.
+
+    Only the list form makes matplotlib fall back per glyph. The other form
+    picks one family and renders missing glyphs as .notdef with no warning,
+    which is how beta in "DPO (beta=0.1)" became a tofu box while Thai looked
+    fine and nothing was logged.
+    """
     name = use_thai_font()
     if name is None:
         import pytest
         pytest.skip("no Thai font installed on this machine")
-    stack = matplotlib.rcParams["font.sans-serif"]
-    assert stack[0] == name
-    assert "DejaVu Sans" in stack, "Latin/maths fallback must remain"
-    assert matplotlib.rcParams["font.family"] == ["sans-serif"]
+    fam = matplotlib.rcParams["font.family"]
+    assert isinstance(fam, list) and len(fam) >= 2, f"family must be a list: {fam}"
+    assert fam[0] == name
+    assert "DejaVu Sans" in fam, "Latin/Greek/maths fallback must remain"
+
+
+def test_greek_beta_renders_with_thai_font(tmp_path):
+    """Regression: beta must not be tofu when a Thai font is active.
+
+    Thai fonts routinely lack Greek, and matplotlib does not warn when a glyph
+    silently falls through to .notdef, so this asserts on rendered pixels.
+    """
+    import pytest
+    import matplotlib.pyplot as plt
+    if use_thai_font() is None:
+        pytest.skip("no Thai font installed on this machine")
+
+    def ink(text):
+        fig, ax = plt.subplots(figsize=(2, 1))
+        ax.set_title(text)
+        ax.axis("off")
+        out = tmp_path / "probe.png"
+        fig.savefig(out, dpi=110)
+        plt.close(fig)
+        from matplotlib import image as mpimg
+        return float((mpimg.imread(out)[..., :3] < 0.5).sum())
+
+    # A real beta and a tofu box both mark pixels, so compare against a
+    # codepoint no font has: if beta rendered as .notdef the two would match.
+    assert ink("\u03b2") != ink("\U000107a0"), "beta appears to render as .notdef"
 
 
 def test_tlwg_fonts_are_discoverable_by_hint():

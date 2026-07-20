@@ -90,10 +90,13 @@ def use_thai_font(rescan: bool = True) -> str | None:
     available = {f.name for f in font_manager.fontManager.ttflist}
     for name in _THAI_FONT_CANDIDATES:
         if name in available:
-            # Keep DejaVu behind it so Latin/maths glyphs the Thai font lacks
-            # (β, ≥, …) still resolve instead of becoming tofu themselves.
-            matplotlib.rcParams["font.family"] = "sans-serif"
-            matplotlib.rcParams["font.sans-serif"] = [name, "DejaVu Sans"]
+            # font.family must itself be a LIST to get per-glyph fallback.
+            # Setting font.family="sans-serif" + font.sans-serif=[thai, dejavu]
+            # looks equivalent but is not: that form only picks the first
+            # available family and then renders every missing glyph as .notdef,
+            # SILENTLY (no "missing from font" warning). Thai fonts routinely
+            # lack Greek, so β in "DPO (β=0.1)" came out as a tofu box.
+            matplotlib.rcParams["font.family"] = [name, "DejaVu Sans"]
             matplotlib.rcParams["axes.unicode_minus"] = False
             return name
     return None
@@ -145,9 +148,15 @@ def plot_before_after(
     ax.bar(x + width / 2, after_acc, width, yerr=after_err, capsize=4,
            label=after.get("model", "after"), color="#2563eb")
 
+    # The error bar is centred on the bar, so a label at the bar's centre sits
+    # underneath it. Nudge each label to the outer edge and give it a backing
+    # box so it stays readable wherever the whisker lands.
+    label_box = dict(boxstyle="round,pad=0.15", fc="white", ec="none", alpha=0.75)
     for xi, (b, a) in enumerate(zip(before_acc, after_acc)):
-        ax.text(xi - width / 2, b + 1.5, f"{b:.0f}", ha="center", fontsize=9)
-        ax.text(xi + width / 2, a + 1.5, f"{a:.0f}", ha="center", fontsize=9)
+        ax.text(xi - width / 2 - width * 0.32, b + 1.5, f"{b:.0f}",
+                ha="center", fontsize=9, zorder=5, bbox=label_box)
+        ax.text(xi + width / 2 + width * 0.32, a + 1.5, f"{a:.0f}",
+                ha="center", fontsize=9, zorder=5, bbox=label_box)
 
     ax.set_xticks(x)
     ax.set_xticklabels(names)
