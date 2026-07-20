@@ -27,40 +27,24 @@ benchmark, so the numbers across all ten posts are directly comparable.*
 
 ## สารบัญ 10 ตอน
 
-| # | ตอน | สิ่งที่วัด | Colab | สถานะ |
+ทุกตอนเผยแพร่แล้วทั้งบทความและโน้ตบุ๊ก — กดปุ่ม Colab แล้วรันได้ทันทีบน T4 ฟรี
+
+| # | ตอน | สิ่งที่วัด | อ่านบทความ | Colab |
 |---|---|---|---|---|
-| 0 | **แม่แบบ (Template)** — โครงมาตรฐานของทุกตอน | — | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/_template.ipynb) | ✅ พร้อมใช้ |
-| 1 | วัดก่อนเทรน: สร้างชุดวัดผลภาษาไทยของคุณเอง | baseline ทั้ง 4 slice | `01-baseline-thai-eval` | 🚧 กำลังเขียน |
-| 2 | Base vs Instruct: chat template สำคัญแค่ไหน | TH-INSTR, `th_ratio` | `02-base-vs-instruct` | 🚧 กำลังเขียน |
-| 3 | Prompt engineering ภาษาไทย: system prompt เปลี่ยนอะไรได้ | `th_ratio`, TH-KNOW | `03-thai-prompting` | 🚧 กำลังเขียน |
-| 4 | Tokenizer: ทำไมภาษาไทยถึง "แพง" กว่าภาษาอังกฤษ | tokens/char, PPL | `04-thai-tokenizer` | 🚧 กำลังเขียน |
-| 5 | SFT ครั้งแรกด้วย LoRA | TH-INSTR, VRAM, เวลาเทรน | `05-first-lora-sft` | 🚧 กำลังเขียน |
-| 6 | เลือก hyperparameter ของ LoRA อย่างมีหลักฐาน | ทุก slice + McNemar | `06-lora-hyperparams` | 🚧 กำลังเขียน |
-| 7 | DPO: สอนโมเดลให้ "ตอบเป็นภาษาไทย" | `th_ratio`, TH-INSTR | `07-dpo-thai` | 🚧 กำลังเขียน |
-| 8 | Quantization บน T4: 4-bit / 8-bit แลกอะไรกับอะไร | accuracy vs VRAM | `08-quantization-t4` | 🚧 กำลังเขียน |
-| 9 | RAG ภาษาไทย: เมื่อโมเดลเล็กต้องการความรู้ | TH-KNOW | `09-thai-rag` | 🚧 กำลังเขียน |
-| 10 | ประเมินผลอย่างซื่อสัตย์: contamination, CI, McNemar | ทุก slice | `10-honest-eval` | 🚧 กำลังเขียน |
+| 1 | **Continue Pretraining** — สอนความรู้ใหม่ให้ LLM ภาษาไทย | domain/general held-out PPL, TH-KNOW, tokens/char | [kobkrit.com](https://kobkrit.com/blog/llm-01-continue-pretraining) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/01_continue_pretraining.ipynb) |
+| 2 | **SFT + LoRA** — สอนโมเดลให้เป็นผู้ช่วย ด้วยการเทรน 1.69% ของพารามิเตอร์ | TH-INSTR + Wilson CI, `th_ratio`, สัดส่วนจบด้วย eos, ablation ไม่ mask | [kobkrit.com](https://kobkrit.com/blog/llm-02-sft-lora) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/02_sft_lora.ipynb) |
+| 3 | **RLHF และ PPO** — เทรนโมเดลด้วยรางวัลที่หาอนุพันธ์ไม่ได้ | RM pairwise acc + Wilson CI, reward/KL/ความยาว, TH-MATH, ablation β=0 | [kobkrit.com](https://kobkrit.com/blog/llm-03-rlhf-ppo) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/03_rlhf_ppo.ipynb) |
+| 4 | **DPO** — เมื่อโมเดลภาษากลายเป็น reward model ของตัวเอง | preference acc + Wilson CI, reward margin, `th_ratio`, TH-INSTR | [kobkrit.com](https://kobkrit.com/blog/llm-04-dpo) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/04_dpo.ipynb) |
+| 5 | **GRPO** — ลบ value network ทิ้ง ให้กลุ่มคำตอบเป็น baseline ของกันเอง | pass@1/pass@8 (unbiased) + Wilson CI, mean reward, สัดส่วนกลุ่ม std > 0, TH-MATH, ดักจับ reward hacking | [kobkrit.com](https://kobkrit.com/blog/llm-05-grpo) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/05_grpo.ipynb) |
+| 6 | **Context Distillation (OPCD)** — ย้าย system prompt ~400 token เข้า weights ด้วย reverse KL บน top-128 | persona-compliance 4 เงื่อนไข (รวม offline CD) + Wilson CI, OOD compliance, coverage, entropy/length canaries, prompt tokens/latency | [kobkrit.com](https://kobkrit.com/blog/llm-06-context-distillation) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/06_context_distillation.ipynb) |
+| 7 | **Model Distillation** — กลั่น Qwen3-1.7B ลงสู่ 0.6B ด้วย top-64 logits | TH-INSTR ครู/นักเรียน + gap closed %, พิสูจน์ KD loss กับ float64, T² sweep, tok/sec, TH-SAFE | [kobkrit.com](https://kobkrit.com/blog/llm-07-model-distillation) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/07_model_distillation.ipynb) |
+| 8 | **Guardrails** — classifier ขาเข้า + ตัวกรอง PII ขาออก และการเลือก τ* ด้วยต้นทุน | ROC-AUC + bootstrap CI, τ* ที่ 10:1, unsafe/benign-blocked บน TH-SAFE + Wilson CI, mod-11 checksum | [kobkrit.com](https://kobkrit.com/blog/llm-08-guardrails) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/08_guardrails.ipynb) |
+| 9 | **Benchmarking** — ระบบให้คะแนน 3 โหมดจากศูนย์ (loglik γ / exact-match / judge) | ThaiExam + GSM8K-TH + KobEval-TH ครบ 4 slice, Wilson CI ทุกตัวเลข, McNemar คู่สูสี, pass@k, contamination scan k=5/20, ด่านตรวจ license | [kobkrit.com](https://kobkrit.com/blog/llm-09-benchmarking) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/09_benchmarking.ipynb) |
+| 10 | **Deployment** — เพดาน ~266 tok/s จาก datasheet แล้ววัดจริงทีละชั้น | KV 112 KiB/token (assert จาก config), tok/s @B=1/16, continuous batching ~60 บรรทัด, p50/p99 vs λ แบบ open-loop, int8/nf4 พร้อมคอลัมน์ TH-KNOW บังคับ | [kobkrit.com](https://kobkrit.com/blog/llm-10-deployment) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/10_deployment.ipynb) |
+| — | แม่แบบ (Template) — โครงมาตรฐานของทุกตอน | — | — | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/_template.ipynb) |
 
-### โน้ตบุ๊กที่เผยแพร่แล้ว (รันได้ทันที)
-
-| ตอนที่เผยแพร่บน kobkrit.com | สิ่งที่วัด | Colab | สถานะ |
-|---|---|---|---|
-| [LLM 1/10] **Continue Pretraining** — สอนความรู้ใหม่ให้ LLM ภาษาไทย | domain/general held-out PPL, TH-KNOW, tokens/char | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/01_continue_pretraining.ipynb) | ✅ พร้อมใช้ |
-| [LLM 2/10] **SFT + LoRA** — สอนโมเดลให้เป็นผู้ช่วย ด้วยการเทรน 1.69% ของพารามิเตอร์ | TH-INSTR + Wilson CI, `th_ratio`, สัดส่วนจบด้วย eos, ablation ไม่ mask | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/02_sft_lora.ipynb) | ✅ พร้อมใช้ |
-| [LLM 3/10] **RLHF และ PPO** — เทรนโมเดลด้วยรางวัลที่หาอนุพันธ์ไม่ได้ | RM pairwise acc + Wilson CI, reward/KL/ความยาว, TH-MATH, ablation β=0 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/03_rlhf_ppo.ipynb) | ✅ พร้อมใช้ |
-| [LLM 4/10] **DPO** — เมื่อโมเดลภาษากลายเป็น reward model ของตัวเอง | preference acc + Wilson CI, reward margin, `th_ratio`, TH-INSTR | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/04_dpo.ipynb) | ✅ พร้อมใช้ |
-| [LLM 5/10] **GRPO** — ลบ value network ทิ้ง ให้กลุ่มคำตอบเป็น baseline ของกันเอง | pass@1/pass@8 (unbiased) + Wilson CI, mean reward, สัดส่วนกลุ่ม std > 0, TH-MATH, ดักจับ reward hacking | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/05_grpo.ipynb) | ✅ พร้อมใช้ |
-| [LLM 6/10] **Context Distillation (OPCD)** — ย้าย system prompt ~400 token เข้า weights ด้วย reverse KL บน top-128 | persona-compliance 4 เงื่อนไข (รวม offline CD) + Wilson CI, OOD compliance, coverage, entropy/length canaries, TH-INSTR, prompt tokens/latency | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/06_context_distillation.ipynb) | ✅ พร้อมใช้ |
-| [LLM 7/10] **Model Distillation** — กลั่น Qwen3-1.7B ลงสู่ 0.6B ด้วย top-64 logits | TH-INSTR ครู/นักเรียน + gap closed %, พิสูจน์ KD loss กับ float64, T² sweep, tok/sec, TH-SAFE | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/07_model_distillation.ipynb) | ✅ พร้อมใช้ |
-| [LLM 8/10] **Guardrails** — classifier ขาเข้า + ตัวกรอง PII ขาออก และการเลือก τ* ด้วยต้นทุน | ROC-AUC + bootstrap CI, τ* ที่ 10:1, unsafe/benign-blocked บน TH-SAFE + Wilson CI, mod-11 checksum | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/08_guardrails.ipynb) | ✅ พร้อมใช้ |
-| [LLM 9/10] **Benchmarking** — ระบบให้คะแนน 3 โหมดจากศูนย์ (loglik γ / exact-match / judge) | ThaiExam + GSM8K-TH + KobEval-TH ครบ 4 slice, Wilson CI ทุกตัวเลข, McNemar คู่สูสี, pass@k, contamination scan k=5/20, ด่านตรวจ license | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/09_benchmarking.ipynb) | ✅ พร้อมใช้ |
-| [LLM 10/10] **Deployment** — เพดาน ~266 tok/s จาก datasheet แล้ววัดจริงทีละชั้น | KV 112 KiB/token (assert จาก config), tok/s @B=1/16, continuous batching ~60 บรรทัด, p50/p99 vs λ แบบ open-loop, int8/nf4 พร้อมคอลัมน์ TH-KNOW บังคับ | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kobkrit/thai-llm-tutorials/blob/main/notebooks/10_deployment.ipynb) | ✅ พร้อมใช้ |
-
-> **หมายเหตุ:** ตารางสารบัญด้านบนคือ *แผน* ของซีรีส์ ส่วนตารางนี้คือโน้ตบุ๊กที่
-> **มีอยู่จริงในรีโพและรันได้แล้ว** ลำดับตอนที่เผยแพร่จริงบน kobkrit.com
-> อาจไม่ตรงกับลำดับในแผน
-> โน้ตบุ๊กที่เหลือจะทยอยเพิ่มเข้ามาพร้อมกับบทความ
-> ปุ่ม Colab ของตอนที่ยังไม่เผยแพร่จึงยังไม่มีลิงก์ เพื่อไม่ให้เกิดลิงก์เสีย
+> โน้ตบุ๊กทุกตอนใช้ **Cell 0 ที่เหมือนกันทุกไบต์** และวัดผลด้วย `kobeval` + ชุด KobEval-TH ชุดเดียวกัน
+> ตัวเลขข้ามตอนจึงเทียบกันได้ตรง ๆ
 
 ---
 
@@ -174,15 +158,14 @@ Qwen3-0.6B: `hidden_size=1024`, `intermediate_size=3072`, `num_hidden_layers=28`
 
 | Dataset | ใช้ในตอน |
 |---|---|
-| [`iapp/dpo_thai_tutorial`](https://huggingface.co/datasets/iapp/dpo_thai_tutorial) | 7 (DPO) |
-| [`airesearch/wangchanx-seed-free-synthetic-instruct-thai-120k`](https://huggingface.co/datasets/airesearch/wangchanx-seed-free-synthetic-instruct-thai-120k) | 5, 6 (SFT) |
-| [`VISAI-AI/gsm8k-thai`](https://huggingface.co/datasets/VISAI-AI/gsm8k-thai) | 6 (คณิตศาสตร์) |
-| [`scb10x/thai_exam`](https://huggingface.co/datasets/scb10x/thai_exam) | 1, 10 (วัดผลเทียบ) |
-| [`iapp/iapp_wiki_qa_squad`](https://huggingface.co/datasets/iapp/iapp_wiki_qa_squad) | 9 (RAG) |
-| [`pythainlp/thaigov-v2-corpus-22032023`](https://huggingface.co/datasets/pythainlp/thaigov-v2-corpus-22032023) | 9 (RAG corpus) |
-| [`pythainlp/wisesight_sentiment`](https://huggingface.co/datasets/pythainlp/wisesight_sentiment) | 4 (tokenizer) |
-| [`pythainlp/thaisum`](https://huggingface.co/datasets/pythainlp/thaisum) | 4 (tokenizer) |
-| [`tmu-nlp/thai_toxicity_tweet`](https://huggingface.co/datasets/tmu-nlp/thai_toxicity_tweet) | 10 (safety) |
+| [`airesearch/wangchanx-seed-free-synthetic-instruct-thai-120k`](https://huggingface.co/datasets/airesearch/wangchanx-seed-free-synthetic-instruct-thai-120k) | 1 (replay), 2 (SFT), 4 (DPO), 6 (OPCD), 7 (distillation) |
+| [`pythainlp/thaigov-v2-corpus-22032023`](https://huggingface.co/datasets/pythainlp/thaigov-v2-corpus-22032023) | 1 (โดเมนสำหรับ CPT), 9 (contamination scan) |
+| [`iapp/dpo_thai_tutorial`](https://huggingface.co/datasets/iapp/dpo_thai_tutorial) | 3 (reward model), 4 (DPO) |
+| [`VISAI-AI/gsm8k-thai`](https://huggingface.co/datasets/VISAI-AI/gsm8k-thai) | 3 (PPO), 5 (GRPO), 9 (วัดผล) |
+| [`tmu-nlp/thai_toxicity_tweet`](https://huggingface.co/datasets/tmu-nlp/thai_toxicity_tweet) | 8 (guardrails — คลาส unsafe) |
+| [`pythainlp/wisesight_sentiment`](https://huggingface.co/datasets/pythainlp/wisesight_sentiment) | 8 (guardrails — hard negative) |
+| [`scb10x/thai_exam`](https://huggingface.co/datasets/scb10x/thai_exam) | 9 (benchmark ภายนอก) |
+| **KobEval-TH** (ในรีโพนี้) | ทุกตอน — ห้ามนำไปเทรนเด็ดขาด |
 
 ---
 
