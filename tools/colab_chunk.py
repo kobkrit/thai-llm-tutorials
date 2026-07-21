@@ -147,13 +147,28 @@ def main() -> int:
                 fh.write(f"\n===== cell {i} (attempt {attempt}, {dt:.0f}s) =====\n{out}\n")
 
             if "Connection was lost" in out or "not found" in out or "appears to be lost" in out:
-                print(f"[chunk]   connection/session lost after {dt:.0f}s; "
-                      f"{'retrying' if attempt < a.retries else 'giving up'}", flush=True)
-                if attempt < a.retries:
-                    ensure_session(a.session, a.gpu)
-                    exec_src(a.session, BOOTSTRAP, 600)
-                    print("[chunk]   NOTE: kernel state was lost; rerun from --from 0", flush=True)
-                    return 4
+                # A long cell often drops the websocket while the KERNEL stays alive.
+                # Probe the session for a global that cell 0 always defines (DTYPE):
+                # if it survived we merely lost the pipe -> re-exec this same cell on
+                # the same session and keep all state. Only if the probe shows the
+                # kernel is fresh/gone do we conclude the run cannot continue.
+                print(f"[chunk]   connection lost after {dt:.0f}s; probing kernel ...", flush=True)
+                time.sleep(15)
+                try:
+                    _, probe = exec_src(
+                        a.session,
+                        "print('STATE_OK' if 'DTYPE' in dir() else 'STATE_LOST')", 180)
+                except Exception:
+                    probe = ""
+                if "STATE_OK" in probe and attempt < a.retries:
+                    print(f"[chunk]   kernel alive, state survived -> re-exec cell {i} "
+                          f"(attempt {attempt + 1})", flush=True)
+                    continue
+                print(f"[chunk]   kernel state is gone; giving up "
+                      f"(probe={'STATE_OK' if 'STATE_OK' in probe else 'lost'})", flush=True)
+                ensure_session(a.session, a.gpu)
+                exec_src(a.session, BOOTSTRAP, 600)
+                print("[chunk]   NOTE: kernel state was lost; rerun from --from 0", flush=True)
                 return 4
 
             err = re.search(r"^(\w*(?:Error|Exception))\b.*", out, re.M)
