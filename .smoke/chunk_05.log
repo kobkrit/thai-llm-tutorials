@@ -1,66 +1,68 @@
 
-===== cell 0 (attempt 1, 57s) =====
+===== cell 0 (attempt 1, 74s) =====
 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/10.4 MB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m7.6/10.4 MB[0m [31m228.2 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m10.4/10.4 MB[0m [31m236.7 MB/s[0m eta [36m0:00:01[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10.4/10.4 MB[0m [31m123.0 MB/s[0m eta [36m0:00:00[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m6.9/10.4 MB[0m [31m208.0 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m10.4/10.4 MB[0m [31m225.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10.4/10.4 MB[0m [31m121.2 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/354.7 kB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m354.7/354.7 kB[0m [31m36.5 MB/s[0m eta [36m0:00:00[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m354.7/354.7 kB[0m [31m35.0 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/491.2 kB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m491.2/491.2 kB[0m [31m47.4 MB/s[0m eta [36m0:00:00[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m491.2/491.2 kB[0m [31m43.5 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/411.0 kB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m411.0/411.0 kB[0m [31m44.1 MB/s[0m eta [36m0:00:00[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m411.0/411.0 kB[0m [31m40.3 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/336.4 kB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m336.4/336.4 kB[0m [31m29.8 MB/s[0m eta [36m0:00:00[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m336.4/336.4 kB[0m [31m32.3 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/76.1 MB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [91m━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.0/76.1 MB[0m [31m238.7 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m14.4/76.1 MB[0m [31m192.7 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m22.7/76.1 MB[0m [31m225.8 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m31.8/76.1 MB[0m [31m241.6 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m40.3/76.1 MB[0m [31m248.4 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m47.6/76.1 MB[0m [31m215.6 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m55.7/76.1 MB[0m [31m210.0 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m61.6/76.1 MB[0m [31m165.4 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m68.4/76.1 MB[0m [31m179.1 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m74.8/76.1 MB[0m [31m157.5 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m156.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m76.1/76.1 MB[0m [31m10.5 MB/s[0m eta [36m0:00:00[0m
+[2K   [91m━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.9/76.1 MB[0m [31m238.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m15.7/76.1 MB[0m [31m234.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m23.1/76.1 MB[0m [31m208.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m30.5/76.1 MB[0m [31m222.0 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m37.9/76.1 MB[0m [31m214.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m46.0/76.1 MB[0m [31m222.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━[0m [32m51.9/76.1 MB[0m [31m195.5 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m57.0/76.1 MB[0m [31m156.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m61.0/76.1 MB[0m [31m127.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━[0m [32m66.4/76.1 MB[0m [31m128.2 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m74.4/76.1 MB[0m [31m199.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m206.6 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m76.1/76.1 MB[0m [31m10.4 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.3 MB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/1.3 MB[0m [31m73.6 MB/s[0m eta [36m0:00:00[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/1.3 MB[0m [31m72.5 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/8.6 MB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m6.1/8.6 MB[0m [31m182.7 MB/s[0m eta [36m0:00:01[0m
-[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m8.6/8.6 MB[0m [31m178.3 MB/s[0m eta [36m0:00:01[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.6/8.6 MB[0m [31m100.9 MB/s[0m eta [36m0:00:00[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m7.3/8.6 MB[0m [31m220.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m8.6/8.6 MB[0m [31m220.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.6/8.6 MB[0m [31m114.8 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/183.9 kB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183.9/183.9 kB[0m [31m20.2 MB/s[0m eta [36m0:00:00[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183.9/183.9 kB[0m [31m19.3 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/566.4 kB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m566.4/566.4 kB[0m [31m47.0 MB/s[0m eta [36m0:00:00[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m566.4/566.4 kB[0m [31m46.4 MB/s[0m eta [36m0:00:00[0m
 [?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.1 MB[0m [31m?[0m eta [36m-:--:--[0m
-[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.1/3.1 MB[0m [31m105.4 MB/s[0m eta [36m0:00:00[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m3.1/3.1 MB[0m [31m175.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.1/3.1 MB[0m [31m86.5 MB/s[0m eta [36m0:00:00[0m
 [?25h[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
 gradio 6.20.0 requires huggingface-hub<2.0,>=1.2.0, but you have huggingface-hub 0.36.2 which is incompatible.
 gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2024.12.0 which is incompatible.[0m[31m
@@ -84,7 +86,7 @@ kobeval contract: {'do_sample': False, 'max_new_tokens': 256, 'enable_thinking':
 KobEval-TH checksum ok: True
 
 
-===== cell 1 (attempt 1, 302s) =====
+===== cell 1 (attempt 1, 295s) =====
 tokenizer_config.json: 0.00B [00:00, ?B/s]
 vocab.json: 0.00B [00:00, ?B/s]
 merges.txt: 0.00B [00:00, ?B/s]
@@ -101,7 +103,7 @@ VRAM ที่ใช้หลังโหลดโมเดลฐาน: 1.110 G
   TH-MATH: 20/30
   TH-MATH: 30/30
 
-ใช้เวลาวัด baseline: 235 วินาที
+ใช้เวลาวัด baseline: 244 วินาที
 TH-MATH   acc=0.700 [95% CI 0.521-0.833]  th_ratio=0.71  len=309
 
 รวมทุก slice: acc=0.700  th_ratio=0.71
@@ -112,11 +114,245 @@ If the error persists, please let us know by opening an issue on GitHub (https:/
   warnings.warn(
 
 
-===== cell 2 (attempt 1, 9s) =====
+===== cell 2 (attempt 1, 2s) =====
 <Figure size 1150x430 with 2 Axes>
 
-[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmplxezk74f.png]
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmp_lwgaqvc.png]
 advantage ของกลุ่มจริง : [ 1.56 -0.55 -0.2   1.56 -0.55 -1.08 -0.55 -0.2 ]
 advantage ของกลุ่มเสื่อม: [0. 0. 0. 0. 0. 0. 0. 0.]
 สังเกต: r=0.3 เป็น reward บวก แต่ advantage ติดลบ เพราะแพ้ค่าเฉลี่ยของกลุ่ม
+
+
+===== cell 3 (attempt 1, 2s) =====
+<Figure size 1150x430 with 2 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmp35p7lvkp.png]
+KL จริง = 0.125
+mean k1 = 0.1225  (unbiased)   std k1 = 0.5024   ติดลบ 40.1% ของ sample
+mean k3 = 0.1262  (unbiased)   std k3 = 0.1849   ติดลบ 0.0% ของ sample
+=> k3 unbiased เท่ากัน แต่ variance ต่ำกว่าและไม่ติดลบ -- ใช้เป็น penalty ได้ตั้งแต่ step แรก
+
+
+===== cell 4 (attempt 1, 1s) =====
+adapter: สร้างใหม่ (ไม่พบ adapter ของตอนที่ 2 -- ปกติสำหรับ Colab เปิดใหม่)
+พารามิเตอร์ที่เทรน : 10.09M จาก 606.1M (1.67%)
+cast เป็น fp32 ไป  : 0 tensors
+VRAM ก่อนติด adapter : 1.110 GB
+VRAM หลังติด adapter : 1.156 GB
+ส่วนต่าง             : 0.046 GB
+
+reference model ของ GRPO ไม่กิน VRAM เพิ่มเลยแม้แต่ไบต์เดียว --
+TRL เห็นว่า policy เป็น PeftModel แล้วใช้ 'ฐานที่ปิด adapter' เป็น reference ให้เอง
+
+
+===== cell 5 (attempt 1, 9s) =====
+README.md: 0.00B [00:00, ?B/s]
+data/train-00000-of-00001.parquet:   0%|          | 0.00/5.61M [00:00<?, ?B/s]
+data/test-00000-of-00001.parquet:   0%|          | 0.00/1.02M [00:00<?, ?B/s]
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]
+VISAI-AI/gsm8k-thai columns: ['translated_question', 'translated_answer', 'original_question', 'original_answer']  n=7473
+โจทย์เทรน 24 ข้อ | held-out 12 ข้อ (แยกขาดจากกัน)
+FAST_MODE=True  ->  G=4, max_completion=128
+
+ตัวอย่างโจทย์ข้อแรก:
+  คำถาม : มิมี่เก็บหอยทะเลที่ชายหาดได้ 2 โหล ส่วนไคล์เจอหอยมากกว่ามิมี่เป็น 2 เท่าและเก็บใส่กระเป๋า ลีห์หยิบหอยของไคล์ไปหนึ่งในสาม
+  เฉลย  : 16
+
+ท้าย prompt หลังผ่าน chat template (สังเกตว่าจบที่ assistant พร้อมให้คิดเอง):
+'หยิบหอยของไคล์ไปหนึ่งในสามส่วน ลีห์มีหอยทะเลทั้งหมดกี่ตัว<|im_end|>\n<|im_start|>assistant\n'
+
+
+===== cell 6 (attempt 1, 1s) =====
+ผ่าน: แปลงเลขไทย ๑๒๓ -> 123, ๔๒ -> 42
+ผ่าน: ดึงเลขสุดท้ายหลัง </think> ถูกต้อง (รวมเลขไทยและเลขมีจุลภาค)
+ผ่าน: reward ทั้งสามตัวให้คะแนนตรงตามที่ตั้งใจ รวมทั้งกรณี think ว่างเปล่า
+
+ติดตั้ง tracker แล้ว -- ทุก reward ที่ TRL เรียกจะถูกบันทึกไว้วิเคราะห์ในหัวข้อ 8
+
+
+===== cell 7 (attempt 1, 7s) =====
+งบของรันนี้ (คิดเลขให้ดูตรง ๆ):
+  completion ทั้งหมด        : 24 โจทย์ x 4 = 96
+  completion ต่อ optimizer step: 16 x accum 2 = 32
+  optimizer steps            : 3
+  token generate สูงสุด      : 12,288 token
+
+เวลาบน T4 จะหมดไปกับบรรทัดสุดท้ายนั่นแหละ ไม่ใช่ backprop
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+
+
+===== cell 8 (attempt 1, 12s) =====
+โจทย์: มิมี่เก็บหอยทะเลที่ชายหาดได้ 2 โหล ส่วนไคล์เจอหอยมากกว่ามิมี่เป็น 2 เท่าและเก็บใส่กระเป๋า ...  (เฉลย = 16)
+ i  reward  advantage   คำตอบ (ตัดมา 60 ตัวอักษร)
+ 1    0.00    +0.0000   <think> Okay, let's try to figure this out step by step. So,
+ 2    0.00    +0.0000   <think> Okay, let's see. The problem says that Mimi has 2 bu
+ 3    0.00    +0.0000   <think> Okay, let's try to figure this out. So, the problem 
+ 4    0.00    +0.0000   <think> Okay, let's try to solve this problem step by step. 
+mean = 0.0000   std (n-1) = 0.0000
+
+assert ผ่าน: advantage ที่คิดด้วยมือ == สูตรเวกเตอร์ ทุกตำแหน่ง (atol=1e-6)
+
+กรณีเสื่อม r = [0.30000001192092896, 0.30000001192092896, 0.30000001192092896, 0.30000001192092896]
+advantage = [0.0, 0.0, 0.0, 0.0]
+(เศษ fp32 ที่ใหญ่ที่สุด = 0.00e+00 -- ศูนย์ในทางปฏิบัติ)
+advantage = 0 → batch นี้ไม่สอนอะไรเลย (gradient เป็นศูนย์ทั้งกลุ่ม)
+ทุกกลุ่มที่ถูกหมด/ผิดหมด/ได้ reward เท่ากันหมด คือ compute ที่เผาทิ้งเงียบ ๆ แบบนี้
+
+
+===== cell 9 (attempt 1, 168s) =====
+  pass@k ก่อนเทรน: 4/12 ข้อ (42s)
+  pass@k ก่อนเทรน: 8/12 ข้อ (84s)
+  pass@k ก่อนเทรน: 12/12 ข้อ (126s)
+
+ก่อนเทรน: pass@1 = 0.031 [Wilson 95% CI 0.011-0.088]
+          pass@8 = 0.167
+          ช่องว่าง pass@8 - pass@1 = 0.135   <- นี่คือ 'ความสามารถที่กระจัดกระจาย' ที่ GRPO จะพยายามย้ายมาที่ pass@1
+
+เก็บคำตอบ greedy ก่อนเทรนไว้ 4 ข้อ สำหรับเทียบก่อน-หลัง
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+
+
+===== cell 10 (attempt 1, 15s) =====
+`generation_config` default values have been modified to match model-specific defaults: {'temperature': 0.6, 'top_k': 20, 'top_p': 0.95, 'bos_token_id': 151643}. If this is not desired, please set these values explicitly.
+[0;31m---------------------------------------------------------------------------[0m[0;31mOutOfMemoryError[0m                          Traceback (most recent call last)[0;32m/tmp/ipykernel_859/1431936459.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m      4[0m [0mtorch[0m[0;34m.[0m[0mcuda[0m[0;34m.[0m[0mreset_peak_memory_stats[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      5[0m [0mt0[0m [0;34m=[0m [0mtime[0m[0;34m.[0m[0mtime[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 6[0;31m [0mtrainer[0m[0;34m.[0m[0mtrain[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      7[0m [0mTRAIN_TIME_S[0m [0;34m=[0m [0mtime[0m[0;34m.[0m[0mtime[0m[0;34m([0m[0;34m)[0m [0;34m-[0m [0mt0[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      8[0m [0mVRAM_PEAK_GB[0m [0;34m=[0m [0mtorch[0m[0;34m.[0m[0mcuda[0m[0;34m.[0m[0mmax_memory_allocated[0m[0;34m([0m[0;34m)[0m [0;34m/[0m [0;34m([0m[0;36m1024[0m [0;34m**[0m [0;36m3[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/transformers/trainer.py[0m in [0;36mtrain[0;34m(self, resume_from_checkpoint, trial, ignore_keys_for_eval, **kwargs)[0m
+[1;32m   2243[0m                 [0mhf_hub_utils[0m[0;34m.[0m[0menable_progress_bars[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   2244[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 2245[0;31m             return inner_training_loop(
+[0m[1;32m   2246[0m                 [0margs[0m[0;34m=[0m[0margs[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   2247[0m                 [0mresume_from_checkpoint[0m[0;34m=[0m[0mresume_from_checkpoint[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/transformers/trainer.py[0m in [0;36m_inner_training_loop[0;34m(self, batch_size, args, resume_from_checkpoint, trial, ignore_keys_for_eval)[0m
+[1;32m   2558[0m                     )
+[1;32m   2559[0m                     [0;32mwith[0m [0mcontext[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 2560[0;31m                         [0mtr_loss_step[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mtraining_step[0m[0;34m([0m[0mmodel[0m[0;34m,[0m [0minputs[0m[0;34m,[0m [0mnum_items_in_batch[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   2561[0m [0;34m[0m[0m
+[1;32m   2562[0m                     if (
+[0;32m/usr/local/lib/python3.12/dist-packages/transformers/trainer.py[0m in [0;36mtraining_step[0;34m(self, model, inputs, num_items_in_batch)[0m
+[1;32m   3734[0m [0;34m[0m[0m
+[1;32m   3735[0m         [0;32mwith[0m [0mself[0m[0;34m.[0m[0mcompute_loss_context_manager[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 3736[0;31m             [0mloss[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mcompute_loss[0m[0;34m([0m[0mmodel[0m[0;34m,[0m [0minputs[0m[0;34m,[0m [0mnum_items_in_batch[0m[0;34m=[0m[0mnum_items_in_batch[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   3737[0m [0;34m[0m[0m
+[1;32m   3738[0m         [0;32mdel[0m [0minputs[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/trl/extras/profiling.py[0m in [0;36mwrapper[0;34m(self, *args, **kwargs)[0m
+[1;32m     85[0m     [0;32mdef[0m [0mwrapper[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     86[0m         [0;32mwith[0m [0mprofiling_context[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mfunc[0m[0;34m.[0m[0m__name__[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 87[0;31m             [0;32mreturn[0m [0mfunc[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     88[0m [0;34m[0m[0m
+[1;32m     89[0m     [0;32mreturn[0m [0mwrapper[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/trl/trainer/grpo_trainer.py[0m in [0;36mcompute_loss[0;34m(self, model, inputs, return_outputs, num_items_in_batch)[0m
+[1;32m    909[0m         [0mlogits_to_keep[0m [0;34m=[0m [0mcompletion_ids[0m[0;34m.[0m[0msize[0m[0;34m([0m[0;36m1[0m[0;34m)[0m  [0;31m# we only need to compute the logits for the completion tokens[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    910[0m [0;34m[0m[0m
+[0;32m--> 911[0;31m         [0mper_token_logps[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_get_per_token_logps[0m[0;34m([0m[0mmodel[0m[0;34m,[0m [0minput_ids[0m[0;34m,[0m [0mattention_mask[0m[0;34m,[0m [0mlogits_to_keep[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    912[0m [0;34m[0m[0m
+[1;32m    913[0m         [0;31m# Compute the KL divergence between the model and the reference model[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/trl/extras/profiling.py[0m in [0;36mwrapper[0;34m(self, *args, **kwargs)[0m
+[1;32m     85[0m     [0;32mdef[0m [0mwrapper[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     86[0m         [0;32mwith[0m [0mprofiling_context[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mfunc[0m[0;34m.[0m[0m__name__[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 87[0;31m             [0;32mreturn[0m [0mfunc[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     88[0m [0;34m[0m[0m
+[1;32m     89[0m     [0;32mreturn[0m [0mwrapper[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/trl/trainer/grpo_trainer.py[0m in [0;36m_get_per_token_logps[0;34m(self, model, input_ids, attention_mask, logits_to_keep)[0m
+[1;32m    587[0m     [0;32mdef[0m [0m_get_per_token_logps[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mmodel[0m[0;34m,[0m [0minput_ids[0m[0;34m,[0m [0mattention_mask[0m[0;34m,[0m [0mlogits_to_keep[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    588[0m         [0;31m# We add 1 to `logits_to_keep` because the last logits of the sequence is later excluded[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 589[0;31m         [0mlogits[0m [0;34m=[0m [0mmodel[0m[0;34m([0m[0minput_ids[0m[0;34m=[0m[0minput_ids[0m[0;34m,[0m [0mattention_mask[0m[0;34m=[0m[0mattention_mask[0m[0;34m,[0m [0mlogits_to_keep[0m[0;34m=[0m[0mlogits_to_keep[0m [0;34m+[0m [0;36m1[0m[0;34m)[0m[0;34m.[0m[0mlogits[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    590[0m         [0mlogits[0m [0;34m=[0m [0mlogits[0m[0;34m[[0m[0;34m:[0m[0;34m,[0m [0;34m:[0m[0;34m-[0m[0;36m1[0m[0;34m,[0m [0;34m:[0m[0;34m][0m  [0;31m# (B, L-1, V), exclude the last logit: it corresponds to the next token pred[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    591[0m [0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py[0m in [0;36mforward[0;34m(*args, **kwargs)[0m
+[1;32m    812[0m [0;34m[0m[0m
+[1;32m    813[0m     [0;32mdef[0m [0mforward[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 814[0;31m         [0;32mreturn[0m [0mmodel_forward[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    815[0m [0;34m[0m[0m
+[1;32m    816[0m     [0;31m# To act like a decorator so that it can be popped when doing `extract_model_from_parallel`[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py[0m in [0;36m__call__[0;34m(self, *args, **kwargs)[0m
+[1;32m    800[0m [0;34m[0m[0m
+[1;32m    801[0m     [0;32mdef[0m [0m__call__[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 802[0;31m         [0;32mreturn[0m [0mconvert_to_fp32[0m[0;34m([0m[0mself[0m[0;34m.[0m[0mmodel_forward[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    803[0m [0;34m[0m[0m
+[1;32m    804[0m     [0;32mdef[0m [0m__getstate__[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py[0m in [0;36mconvert_to_fp32[0;34m(tensor)[0m
+[1;32m    779[0m         )
+[1;32m    780[0m [0;34m[0m[0m
+[0;32m--> 781[0;31m     [0;32mreturn[0m [0mrecursively_apply[0m[0;34m([0m[0m_convert_to_fp32[0m[0;34m,[0m [0mtensor[0m[0;34m,[0m [0mtest_type[0m[0;34m=[0m[0m_is_fp16_bf16_tensor[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    782[0m [0;34m[0m[0m
+[1;32m    783[0m [0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py[0m in [0;36mrecursively_apply[0;34m(func, data, test_type, error_on_other_type, *args, **kwargs)[0m
+[1;32m    117[0m         return type(data)(
+[1;32m    118[0m             {
+[0;32m--> 119[0;31m                 k: recursively_apply(
+[0m[1;32m    120[0m                     [0mfunc[0m[0;34m,[0m [0mv[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0mtest_type[0m[0;34m=[0m[0mtest_type[0m[0;34m,[0m [0merror_on_other_type[0m[0;34m=[0m[0merror_on_other_type[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    121[0m                 )
+[0;32m/usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py[0m in [0;36mrecursively_apply[0;34m(func, data, test_type, error_on_other_type, *args, **kwargs)[0m
+[1;32m    124[0m         )
+[1;32m    125[0m     [0;32melif[0m [0mtest_type[0m[0;34m([0m[0mdata[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 126[0;31m         [0;32mreturn[0m [0mfunc[0m[0;34m([0m[0mdata[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    127[0m     [0;32melif[0m [0merror_on_other_type[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    128[0m         raise TypeError(
+[0;32m/usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py[0m in [0;36m_convert_to_fp32[0;34m(tensor)[0m
+[1;32m    771[0m [0;34m[0m[0m
+[1;32m    772[0m     [0;32mdef[0m [0m_convert_to_fp32[0m[0;34m([0m[0mtensor[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 773[0;31m         [0;32mreturn[0m [0mtensor[0m[0;34m.[0m[0mfloat[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    774[0m [0;34m[0m[0m
+[1;32m    775[0m     [0;32mdef[0m [0m_is_fp16_bf16_tensor[0m[0;34m([0m[0mtensor[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;31mOutOfMemoryError[0m: CUDA out of memory. Tried to allocate 1.17 GiB. GPU 0 has a total capacity of 14.56 GiB of which 377.81 MiB is free. Including non-PyTorch memory, this process has 14.19 GiB memory in use. Of the allocated memory 13.89 GiB is allocated by PyTorch, and 176.71 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+
+===== cell 11 (attempt 1, 2s) =====
+<Figure size 1350x400 with 3 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmpe08snmm9.png]
+รอบแรก : reward=0.062  std>0 25% ของกลุ่ม  len=128
+รอบสุดท้าย: reward=0.062  std>0 25% ของกลุ่ม  len=128
+
+รันนี้ไม่พบ <think></think> ว่างเปล่าเลย -- regex .+? ปิดช่องฟาร์มตั้งแต่ต้น
+(export เป็น 0 ครั้งใน results.json ตามจริง -- การไม่เจอก็เป็นข้อมูล)
+
+
+===== cell 12 (attempt 1, 128s) =====
+  pass@k หลังเทรน: 4/12 ข้อ (42s)
+  pass@k หลังเทรน: 8/12 ข้อ (85s)
+  pass@k หลังเทรน: 12/12 ข้อ (127s)
+
+                 pass@1     pass@8      gap
+--------------------------------------------
+ก่อนเทรน          0.031      0.167    0.135
+หลังเทรน          0.031      0.167    0.135
+ส่วนต่าง         +0.000     +0.000
+
+pass@8 ขยับไม่น้อยกว่า pass@1 -> อ่านผลอย่างระวัง n เล็กมาก อย่าเพิ่งประกาศการค้นพบ
+<Figure size 750x430 with 1 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmpw5ilvj58.png]
+
+
+===== cell 13 (attempt 1, 1s) =====
+[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_859/1668186323.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     11[0m     [0mmodel_name[0m[0;34m=[0m[0;34mf"Qwen3-0.6B + GRPO ({'FAST' if FAST_MODE else 'full'})"[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     12[0m     [0mout_path[0m[0;34m=[0m[0;34m"results_after.json"[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 13[0;31m     [0mextra[0m[0;34m=[0m[0;34m{[0m[0;34m"train_time_s"[0m[0;34m:[0m [0mTRAIN_TIME_S[0m[0;34m,[0m [0;34m"vram_peak_gb"[0m[0;34m:[0m [0mVRAM_PEAK_GB[0m[0;34m}[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     14[0m )
+[1;32m     15[0m [0mprint[0m[0;34m([0m[0;34mf"ใช้เวลาวัดผลหลัง GRPO: {time.time() - t0:.0f} วินาที\n"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;31mNameError[0m: name 'TRAIN_TIME_S' is not defined
 
