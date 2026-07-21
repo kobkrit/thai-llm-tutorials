@@ -65,15 +65,28 @@ ARTIFACTS = ["results.json", "results_table.json", "results_before_after.json",
 
 
 def harvest(session: str, dest: pathlib.Path) -> None:
-    """Copy result files off the VM after every cell.
+    """Pull result files off the VM after every cell.
 
-    Colab reclaims runtimes without warning. Notebook 02 lost 30 minutes of
-    completed training because its results.json only ever existed on a VM that
-    disappeared. Downloading after each cell makes progress durable.
+    `colab download` returns 0-byte files in this CLI version, so read the JSON
+    through `colab exec` + base64 instead. Colab reclaims runtimes without
+    warning, so making finished work durable after each cell is what stops a
+    lost session from destroying a completed run.
     """
     dest.mkdir(parents=True, exist_ok=True)
-    for name in ARTIFACTS:
-        rc, _ = sh(["colab", "download", "-s", session, name, str(dest / name)], 180)
+    names = ", ".join(repr(n) for n in ARTIFACTS)
+    reader = ("import os,base64,json\n"
+              "for _n in [%s]:\n"
+              "    if os.path.exists(_n):\n"
+              "        print('@@F', _n, base64.b64encode(open(_n,'rb').read()).decode())\n" % names)
+    rc, out = exec_src(session, reader, 240)
+    import base64 as _b64
+    for line in out.splitlines():
+        if line.startswith("@@F "):
+            try:
+                _, name, b = line.split(" ", 2)
+                (dest / name).write_bytes(_b64.b64decode(b))
+            except Exception:
+                pass
 
 
 def exec_src(session: str, src: str, timeout: int) -> tuple[int, str]:
