@@ -1,0 +1,336 @@
+
+===== cell 0 (attempt 1, 59s) =====
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/10.4 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.1/10.4 MB[0m [31m182.5 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m10.4/10.4 MB[0m [31m226.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10.4/10.4 MB[0m [31m124.2 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/354.7 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m354.7/354.7 kB[0m [31m37.2 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/491.2 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m491.2/491.2 kB[0m [31m47.5 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/411.0 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m411.0/411.0 kB[0m [31m43.5 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/336.4 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m336.4/336.4 kB[0m [31m36.8 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/76.1 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.3/76.1 MB[0m [31m219.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m15.5/76.1 MB[0m [31m233.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m23.4/76.1 MB[0m [31m225.7 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m31.9/76.1 MB[0m [31m244.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m40.4/76.1 MB[0m [31m237.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━[0m [32m49.1/76.1 MB[0m [31m246.0 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━[0m [32m54.9/76.1 MB[0m [31m192.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━[0m [32m59.9/76.1 MB[0m [31m152.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━[0m [32m65.6/76.1 MB[0m [31m157.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━[0m [32m72.6/76.1 MB[0m [31m174.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m185.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m76.1/76.1 MB[0m [31m10.7 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.3 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/1.3 MB[0m [31m65.8 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/8.6 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━[0m [32m6.9/8.6 MB[0m [31m198.0 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m8.6/8.6 MB[0m [31m197.5 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.6/8.6 MB[0m [31m106.9 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/183.9 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183.9/183.9 kB[0m [31m17.8 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/566.4 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m566.4/566.4 kB[0m [31m46.0 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.1 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.1/3.1 MB[0m [31m92.9 MB/s[0m eta [36m0:00:00[0m
+[?25h[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+gradio 6.20.0 requires huggingface-hub<2.0,>=1.2.0, but you have huggingface-hub 0.36.2 which is incompatible.
+gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2024.12.0 which is incompatible.[0m[31m
+[0m  Installing build dependencies ... [?25l[?25hdone
+  Checking if build backend supports build_editable ... [?25l[?25hdone
+  Getting requirements to build editable ... [?25l[?25hdone
+  Preparing editable metadata (pyproject.toml) ... [?25l[?25hdone
+  Building editable for kobeval (pyproject.toml) ... [?25l[?25hdone
+GPU            : Tesla T4
+Compute cap.   : sm_75
+VRAM           : 14.6 GB
+SUPPORTS_BF16  : False   (native; torch บอกว่า True เพราะนับ emulation ด้วย)
+torch          : 2.11.0+cu128
+
+--> DTYPE      : torch.float16
+--> ATTN_IMPL  : sdpa
+--> fp16=True, bf16=False  (ใช้คู่นี้กับ TrainingArguments)
+Thai font      : Loma
+
+kobeval contract: {'do_sample': False, 'max_new_tokens': 256, 'enable_thinking': False, 'seed': 42, 'version': 'kobeval-th-v1'}
+KobEval-TH checksum ok: True
+
+
+===== cell 1 (attempt 1, 479s) =====
+tokenizer_config.json: 0.00B [00:00, ?B/s]
+vocab.json: 0.00B [00:00, ?B/s]
+merges.txt: 0.00B [00:00, ?B/s]
+tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]
+config.json:   0%|          | 0.00/726 [00:00<?, ?B/s]
+model.safetensors:   0%|          | 0.00/1.50G [00:00<?, ?B/s]
+generation_config.json:   0%|          | 0.00/239 [00:00<?, ?B/s]
+โหลดโมเดลฐานแล้ว: Qwen/Qwen3-0.6B
+dtype จริงของ parameter: torch.float16
+จำนวนพารามิเตอร์: 596.0M
+  hidden_size=1024  layers=28  heads=16/8 (GQA)  vocab=151936
+
+ดึง kobkrit/qwen3-0.6b-th-sft-lora ไม่ได้ (ValueError) -> สร้าง adapter ใหม่
+โน้ตบุ๊กยังรันจบได้ครบทุกเซลล์ เพียงแต่ policy ตั้งต้นคือ base ล้วน (B=0)
+พารามิเตอร์ที่เทรนได้ของ policy: 10.09M (cast เป็น fp32 ไป 0 tensors)
+VRAM หลังประกอบ policy: 1.148 GB
+  TH-MATH: 10/30
+  TH-MATH: 20/30
+  TH-MATH: 30/30
+
+ใช้เวลาวัด baseline: 442 วินาที
+TH-MATH   acc=0.700 [95% CI 0.521-0.833]  th_ratio=0.71  len=309
+
+รวมทุก slice: acc=0.700  th_ratio=0.71
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:104: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+You are not authenticated with the Hugging Face Hub in this notebook.
+If the error persists, please let us know by opening an issue on GitHub (https://github.com/huggingface/huggingface_hub/issues/new).
+  warnings.warn(
+
+
+===== cell 2 (attempt 1, 3s) =====
+<Figure size 1200x440 with 2 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmprdy0xpiy.png]
+บันทึกรูปแล้ว: fig_ppo_clip_gae.png
+อ่านภาพขวา: ที่ lambda=0.95 คะแนนตอนจบเดินทางถึง token ต้น ๆ โดย noise ถูกหน่วง
+นี่คือเหตุผลที่ทั้งวงการใช้ 0.95 และเราก็จะใช้ค่านี้ในหัวข้อ 7.2
+
+
+===== cell 3 (attempt 1, 13s) =====
+README.md: 0.00B [00:00, ?B/s]
+dpo_thai_tutorial.json: 0.00B [00:00, ?B/s]
+Generating train split:   0%|          | 0/100 [00:00<?, ? examples/s]
+iapp/dpo_thai_tutorial columns: ['instruction', 'input', 'chosen', 'rejected']  n=100
+คู่ preference: 100 | เทรน 80 | held-out 20
+README.md: 0.00B [00:00, ?B/s]
+data/train-00000-of-00001.parquet:   0%|          | 0.00/5.61M [00:00<?, ?B/s]
+data/test-00000-of-00001.parquet:   0%|          | 0.00/1.02M [00:00<?, ?B/s]
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]
+gsm8k-thai[train] columns: ['translated_question', 'translated_answer', 'original_question', 'original_answer']  n=7473
+[0;31m---------------------------------------------------------------------------[0m[0;31mAssertionError[0m                            Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/1707572831.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     72[0m [0mg_q[0m [0;34m=[0m [0mpick_column[0m[0;34m([0m[0mgsm[0m[0;34m.[0m[0mcolumn_names[0m[0;34m,[0m [0;34m[[0m[0;34m"question"[0m[0;34m,[0m [0;34m"question_th"[0m[0;34m,[0m [0;34m"instruction"[0m[0;34m,[0m [0;34m"problem"[0m[0;34m,[0m [0;34m"input"[0m[0;34m,[0m [0;34m"query"[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     73[0m [0mg_a[0m [0;34m=[0m [0mpick_column[0m[0;34m([0m[0mgsm[0m[0;34m.[0m[0mcolumn_names[0m[0;34m,[0m [0;34m[[0m[0;34m"answer"[0m[0;34m,[0m [0;34m"answer_th"[0m[0;34m,[0m [0;34m"solution"[0m[0;34m,[0m [0;34m"output"[0m[0;34m,[0m [0;34m"response"[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 74[0;31m [0;32massert[0m [0;32mNone[0m [0;32mnot[0m [0;32min[0m [0;34m([0m[0mg_q[0m[0;34m,[0m [0mg_a[0m[0;34m)[0m[0;34m,[0m [0;34mf"schema ไม่ตรงที่คาด: {gsm.column_names}"[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     75[0m [0;34m[0m[0m
+[1;32m     76[0m [0mN_PPO_PROMPTS[0m [0;34m=[0m [0;36m32[0m [0;32mif[0m [0mFAST_MODE[0m [0;32melse[0m [0;36m64[0m[0;34m[0m[0;34m[0m[0m
+[0;31mAssertionError[0m: schema ไม่ตรงที่คาด: ['translated_question', 'translated_answer', 'original_question', 'original_answer']
+
+
+===== cell 4 (attempt 1, 4s) =====
+trainable params: 2,294,784 || all params: 598,345,728 || trainable%: 0.3835
+Some weights of Qwen3ForSequenceClassification were not initialized from the model checkpoint at Qwen/Qwen3-0.6B and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[0;31m---------------------------------------------------------------------------[0m[0;31mRuntimeError[0m                              Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/850174900.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     53[0m     [0;32mfor[0m [0mi[0m [0;32min[0m [0mrange[0m[0;34m([0m[0;36m0[0m[0;34m,[0m [0mlen[0m[0;34m([0m[0morder[0m[0;34m)[0m[0;34m,[0m [0mRM_BATCH[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     54[0m         [0mbatch[0m [0;34m=[0m [0;34m[[0m[0mRM_TRAIN[0m[0;34m[[0m[0mj[0m[0;34m][0m [0;32mfor[0m [0mj[0m [0;32min[0m [0morder[0m[0;34m[[0m[0mi[0m[0;34m:[0m[0mi[0m [0;34m+[0m [0mRM_BATCH[0m[0;34m][0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 55[0;31m         [0ms_w[0m [0;34m=[0m [0mrm_scores[0m[0;34m([0m[0;34m[[0m[0mb[0m[0;34m[[0m[0;34m"chosen"[0m[0;34m][0m [0;32mfor[0m [0mb[0m [0;32min[0m [0mbatch[0m[0;34m][0m[0;34m)[0m     [0;31m# r_phi(x, y_w)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     56[0m         [0ms_l[0m [0;34m=[0m [0mrm_scores[0m[0;34m([0m[0;34m[[0m[0mb[0m[0;34m[[0m[0;34m"rejected"[0m[0;34m][0m [0;32mfor[0m [0mb[0m [0;32min[0m [0mbatch[0m[0;34m][0m[0;34m)[0m   [0;31m# r_phi(x, y_l)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     57[0m         [0mloss[0m [0;34m=[0m [0;34m-[0m[0mF[0m[0;34m.[0m[0mlogsigmoid[0m[0;34m([0m[0ms_w[0m [0;34m-[0m [0ms_l[0m[0;34m)[0m[0;34m.[0m[0mmean[0m[0;34m([0m[0;34m)[0m            [0;31m# สมการ 3.1 ตรงตัว[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/tmp/ipykernel_1416/850174900.py[0m in [0;36mrm_scores[0;34m(texts)[0m
+[1;32m     34[0m     enc = tokenizer(texts, return_tensors="pt", padding=True,
+[1;32m     35[0m                     truncation=True, max_length=RM_MAX_LEN).to(DEV)
+[0;32m---> 36[0;31m     [0;32mreturn[0m [0mrm[0m[0;34m([0m[0;34m**[0m[0menc[0m[0;34m)[0m[0;34m.[0m[0mlogits[0m[0;34m.[0m[0msqueeze[0m[0;34m([0m[0;34m-[0m[0;36m1[0m[0;34m)[0m[0;34m.[0m[0mfloat[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     37[0m [0;34m[0m[0m
+[1;32m     38[0m [0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/peft/peft_model.py[0m in [0;36mforward[0;34m(self, input_ids, attention_mask, inputs_embeds, labels, output_attentions, output_hidden_states, return_dict, task_ids, **kwargs)[0m
+[1;32m   1556[0m                 [0;32mif[0m [0mpeft_config[0m[0;34m.[0m[0mpeft_type[0m [0;34m==[0m [0mPeftType[0m[0;34m.[0m[0mPOLY[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1557[0m                     [0mkwargs[0m[0;34m[[0m[0;34m"task_ids"[0m[0;34m][0m [0;34m=[0m [0mtask_ids[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1558[0;31m                 return self.base_model(
+[0m[1;32m   1559[0m                     [0minput_ids[0m[0;34m=[0m[0minput_ids[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1560[0m                     [0mattention_mask[0m[0;34m=[0m[0mattention_mask[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/peft/tuners/tuners_utils.py[0m in [0;36mforward[0;34m(self, *args, **kwargs)[0m
+[1;32m    191[0m [0;34m[0m[0m
+[1;32m    192[0m     [0;32mdef[0m [0mforward[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m:[0m [0mAny[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m:[0m [0mAny[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 193[0;31m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0mmodel[0m[0;34m.[0m[0mforward[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    194[0m [0;34m[0m[0m
+[1;32m    195[0m     [0;32mdef[0m [0m_pre_injection_hook[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mmodel[0m[0;34m:[0m [0mnn[0m[0;34m.[0m[0mModule[0m[0;34m,[0m [0mconfig[0m[0;34m:[0m [0mPeftConfig[0m[0;34m,[0m [0madapter_name[0m[0;34m:[0m [0mstr[0m[0;34m)[0m [0;34m->[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/transformers/utils/generic.py[0m in [0;36mwrapper[0;34m(self, *args, **kwargs)[0m
+[1;32m    963[0m [0;34m[0m[0m
+[1;32m    964[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 965[0;31m             [0moutput[0m [0;34m=[0m [0mfunc[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    966[0m             [0;32mif[0m [0mis_requested_to_return_tuple[0m [0;32mor[0m [0;34m([0m[0mis_configured_to_return_tuple[0m [0;32mand[0m [0mis_top_level_module[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    967[0m                 [0moutput[0m [0;34m=[0m [0moutput[0m[0;34m.[0m[0mto_tuple[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/transformers/models/qwen3/modeling_qwen3.py[0m in [0;36mforward[0;34m(self, input_ids, attention_mask, position_ids, past_key_values, inputs_embeds, labels, use_cache, output_attentions, output_hidden_states)[0m
+[1;32m    942[0m         )
+[1;32m    943[0m         [0mhidden_states[0m [0;34m=[0m [0mtransformer_outputs[0m[0;34m.[0m[0mlast_hidden_state[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 944[0;31m         [0mlogits[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mscore[0m[0;34m([0m[0mhidden_states[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    945[0m [0;34m[0m[0m
+[1;32m    946[0m         [0;32mif[0m [0minput_ids[0m [0;32mis[0m [0;32mnot[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/peft/utils/other.py[0m in [0;36mforward[0;34m(self, x, *args, **kwargs)[0m
+[1;32m    397[0m [0;34m[0m[0m
+[1;32m    398[0m         [0;32mif[0m [0madapter_names[0m [0;32mis[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 399[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_forward_wrapped[0m[0;34m([0m[0mx[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    400[0m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_mixed_batch_forward[0m[0;34m([0m[0mx[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0madapter_names[0m[0;34m=[0m[0madapter_names[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    401[0m [0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/peft/utils/other.py[0m in [0;36m_forward_wrapped[0;34m(self, x, *args, **kwargs)[0m
+[1;32m    463[0m [0;34m[0m[0m
+[1;32m    464[0m     [0;32mdef[0m [0m_forward_wrapped[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mx[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 465[0;31m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0mmodules_to_save[0m[0;34m[[0m[0mself[0m[0;34m.[0m[0mactive_adapters[0m[0;34m[[0m[0;36m0[0m[0;34m][0m[0;34m][0m[0;34m([0m[0mx[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    466[0m [0;34m[0m[0m
+[1;32m    467[0m     [0;32mdef[0m [0m_forward_wrapped_mixed_batch[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mx[0m[0;34m,[0m [0mactive_adapter[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.12/dist-packages/torch/nn/modules/linear.py[0m in [0;36mforward[0;34m(self, input)[0m
+[1;32m    132[0m         [0mRuns[0m [0mthe[0m [0mforward[0m [0;32mpass[0m[0;34m.[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    133[0m         """
+[0;32m--> 134[0;31m         [0;32mreturn[0m [0mF[0m[0;34m.[0m[0mlinear[0m[0;34m([0m[0minput[0m[0;34m,[0m [0mself[0m[0;34m.[0m[0mweight[0m[0;34m,[0m [0mself[0m[0;34m.[0m[0mbias[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    135[0m [0;34m[0m[0m
+[1;32m    136[0m     [0;32mdef[0m [0mextra_repr[0m[0;34m([0m[0mself[0m[0;34m)[0m [0;34m->[0m [0mstr[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;31mRuntimeError[0m: expected mat1 and mat2 to have the same dtype, but got: c10::Half != float
+
+
+===== cell 5 (attempt 1, 5s) =====
+value head: 1.05M พารามิเตอร์ (จิ๋วเดียวเทียบกับ policy 596M)
+[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/2316664668.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     28[0m [0mLR_POLICY[0m [0;34m=[0m [0;36m1e-5[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     29[0m [0mLR_VALUE[0m [0;34m=[0m [0;36m1e-4[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 30[0;31m [0mN_UPDATES[0m [0;34m=[0m [0mlen[0m[0;34m([0m[0mTRAIN_ITEMS[0m[0;34m)[0m [0;34m//[0m [0mROLL_B[0m   [0;31m# 1 รอบผ่านโจทย์ครบทุกข้อ[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     31[0m [0;34m[0m[0m
+[1;32m     32[0m [0mpolicy_trainables[0m [0;34m=[0m [0;34m[[0m[0mp[0m [0;32mfor[0m [0mp[0m [0;32min[0m [0mpolicy[0m[0;34m.[0m[0mparameters[0m[0;34m([0m[0;34m)[0m [0;32mif[0m [0mp[0m[0;34m.[0m[0mrequires_grad[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0;31mNameError[0m: name 'TRAIN_ITEMS' is not defined
+
+
+===== cell 6 (attempt 1, 3s) =====
+GAE self-check   : code=[1.2705, 0.39, 0.2] == มือ [1.2704999446868896, 0.38999998569488525, 0.20000000298023224] -> ผ่าน
+GAE ขอบเขต       : lambda=0 -> TD(0), lambda=1 -> MC - V -> ผ่าน
+clip self-check  : [0.5, 1.2, -0.8, -1.5] == มือ [0.5, 1.2, -0.8, -1.5] -> ผ่าน
+clamp self-check : exp(12) ใน fp16 = inf แต่ exp(clamp(12)) จำกัดอยู่ -> ผ่าน
+standardize      : mean=0, std=1 | คะแนนเท่ากันหมด -> ศูนย์ล้วน (ไม่มีสัญญาณ) -> ผ่าน
+
+คณิตศาสตร์ทุกชิ้นตรงกับมือ -- ตอนนี้ถึงจะมีสิทธิ์กดเทรน
+
+
+===== cell 7 (attempt 1, 3s) =====
+[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/3665478316.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     94[0m [0;31m# --- probe ตั้งต้น (ก่อน PPO ทุกชนิด) -------------------------------------------[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     95[0m [0mpolicy[0m[0;34m.[0m[0meval[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 96[0;31m [0mPROBE_BEFORE[0m [0;34m=[0m [0mgenerate_probe[0m[0;34m([0m[0mPROBE_ITEMS[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     97[0m [0mprint[0m[0;34m([0m[0;34m"ตัวอย่างคำตอบตั้งต้นบนโจทย์ held-out:"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     98[0m [0mprint[0m[0;34m([0m[0;34m"  "[0m[0;34m,[0m [0mPROBE_BEFORE[0m[0;34m[[0m[0;36m0[0m[0;34m][0m[0;34m[[0m[0;34m"text"[0m[0;34m][0m[0;34m[[0m[0;34m:[0m[0;36m200[0m[0;34m][0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0mchr[0m[0;34m([0m[0;36m10[0m[0;34m)[0m[0;34m,[0m [0;34m" "[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;31mNameError[0m: name 'PROBE_ITEMS' is not defined
+
+
+===== cell 8 (attempt 1, 2s) =====
+[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/1061685924.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m      2[0m [0;31m# หัวข้อ 9.1 -- ablation: beta = 0 (ไม่มีสายจูง) + hacking exhibits[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      3[0m [0;31m# -----------------------------------------------------------------------------[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 4[0;31m [0mHIST_NOKL[0m[0;34m,[0m [0mTIME_NOKL[0m [0;34m=[0m [0mrun_ppo[0m[0;34m([0m[0;36m0.0[0m[0;34m,[0m [0mtag[0m[0;34m=[0m[0;34m"beta=0 (ablation)"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      5[0m [0mPROBE_NOKL[0m [0;34m=[0m [0mgenerate_probe[0m[0;34m([0m[0mPROBE_ITEMS[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      6[0m [0;34m[0m[0m
+[0;32m/tmp/ipykernel_1416/3665478316.py[0m in [0;36mrun_ppo[0;34m(beta, tag)[0m
+[1;32m     40[0m [0;32mdef[0m [0mrun_ppo[0m[0;34m([0m[0mbeta[0m[0;34m,[0m [0mtag[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     41[0m     [0;34m"""เทรน PPO หนึ่งรอบเต็มจากสภาพตั้งต้นเดิมเป๊ะ -- คืน history ต่อ update"""[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 42[0;31m     [0mrestore_initial_state[0m[0;34m([0m[0;34m)[0m                    [0;31m# ทุกรอบเริ่มจากจุดเดียวกัน -- ablation ที่ยุติธรรม[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     43[0m     [0mopt_pi[0m[0;34m,[0m [0mopt_v[0m[0;34m,[0m [0msc[0m [0;34m=[0m [0mfresh_optim_and_scaler[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     44[0m     [0mpolicy[0m[0;34m.[0m[0meval[0m[0;34m([0m[0;34m)[0m                              [0;31m# ปิด dropout -- gradient ยังไหลปกติ[0m[0;34m[0m[0;34m[0m[0m
+[0;31mNameError[0m: name 'restore_initial_state' is not defined
+
+
+===== cell 9 (attempt 1, 3s) =====
+<Figure size 1350x420 with 3 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmp__8cc9fz.png]
+[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/523019137.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     11[0m ]
+[1;32m     12[0m [0;32mfor[0m [0max[0m[0;34m,[0m [0;34m([0m[0mkey[0m[0;34m,[0m [0mtitle[0m[0;34m,[0m [0msubtitle[0m[0;34m)[0m [0;32min[0m [0mzip[0m[0;34m([0m[0maxes[0m[0;34m,[0m [0mpanels[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 13[0;31m     for hist, color, label in [(HIST_KL, "#2563eb", f"β = {BETA_KL} (มีสายจูง)"),
+[0m[1;32m     14[0m                                (HIST_NOKL, "#dc2626", "β = 0 (ถอดสายจูง)")]:
+[1;32m     15[0m         [0mxs[0m [0;34m=[0m [0;34m[[0m[0mh[0m[0;34m[[0m[0;34m"update"[0m[0;34m][0m [0;32mfor[0m [0mh[0m [0;32min[0m [0mhist[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0;31mNameError[0m: name 'HIST_KL' is not defined
+
+
+===== cell 10 (attempt 1, 3s) =====
+[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/1590470603.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m      3[0m [0;31m# -----------------------------------------------------------------------------[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0;31m# ตอนนี้น้ำหนักใน policy คือผลของรอบ beta=0 (รันทีหลัง) -- ย้อนกลับไปรอบมีสายจูงก่อน[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 5[0;31m [0mload_policy_state[0m[0;34m([0m[0mSTATE_AFTER_KL[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      6[0m [0mpolicy[0m[0;34m.[0m[0meval[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      7[0m [0;34m[0m[0m
+[0;31mNameError[0m: name 'load_policy_state' is not defined
+
+
+===== cell 11 (attempt 1, 2s) =====
+[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/771641739.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     14[0m     [0;34m"eval_contract"[0m[0;34m:[0m [0mEVAL_CONTRACT[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     15[0m     [0;34m"datasets"[0m[0;34m:[0m [0;34m[[0m[0;34m"iapp/dpo_thai_tutorial"[0m[0;34m,[0m [0;34m"VISAI-AI/gsm8k-thai"[0m[0;34m][0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 16[0;31m     [0;34m"reward_model"[0m[0;34m:[0m [0mRM_STATS[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     17[0m     "rule_reward": {
+[1;32m     18[0m         [0;34m"correct_final_int"[0m[0;34m:[0m [0;36m1.0[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;31mNameError[0m: name 'RM_STATS' is not defined
+
