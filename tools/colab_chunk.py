@@ -78,7 +78,12 @@ def harvest(session: str, dest: pathlib.Path) -> None:
               "for _n in [%s]:\n"
               "    if os.path.exists(_n):\n"
               "        print('@@F', _n, base64.b64encode(open(_n,'rb').read()).decode())\n" % names)
-    rc, out = exec_src(session, reader, 240)
+    try:
+        rc, out = exec_src(session, reader, 600)
+    except Exception:
+        return   # a failed harvest must not kill the whole run
+    if "Connection was lost" in out or "not found" in out:
+        return
     import base64 as _b64
     for line in out.splitlines():
         if line.startswith("@@F "):
@@ -160,7 +165,9 @@ def main() -> int:
                 print(f"[chunk] full log: {log}")
                 return 1
 
-            harvest(a.session, REPO / ".smoke" / f"nb{a.nb}")
+            if any(k in src for k in ("write_results", "json.dump", "results.json",
+                                      "results_table", "samples.json", ".png")):
+                harvest(a.session, REPO / ".smoke" / f"nb{a.nb}")
             print(f"[chunk]   ok ({dt:.0f}s)" + (f" | {out.strip().splitlines()[-1][:90]}"
                                                  if out.strip() else ""), flush=True)
             break

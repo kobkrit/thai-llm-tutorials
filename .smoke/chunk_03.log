@@ -1,5 +1,5 @@
 
-===== cell 0 (attempt 1, 20s) =====
+===== cell 0 (attempt 1, 21s) =====
   Installing build dependencies ... [?25l[?25hdone
   Checking if build backend supports build_editable ... [?25l[?25hdone
   Getting requirements to build editable ... [?25l[?25hdone
@@ -29,7 +29,7 @@ dtype จริงของ parameter: torch.float16
 ดึง kobkrit/qwen3-0.6b-th-sft-lora ไม่ได้ (ValueError) -> สร้าง adapter ใหม่
 โน้ตบุ๊กยังรันจบได้ครบทุกเซลล์ เพียงแต่ policy ตั้งต้นคือ base ล้วน (B=0)
 พารามิเตอร์ที่เทรนได้ของ policy: 10.09M (cast เป็น fp32 ไป 0 tensors)
-VRAM หลังประกอบ policy: 2.278 GB
+VRAM หลังประกอบ policy: 1.185 GB
   TH-MATH: 10/30
   TH-MATH: 20/30
   TH-MATH: 30/30
@@ -40,10 +40,10 @@ TH-MATH   acc=0.700 [95% CI 0.521-0.833]  th_ratio=0.71  len=309
 รวมทุก slice: acc=0.700  th_ratio=0.71
 
 
-===== cell 2 (attempt 1, 4s) =====
+===== cell 2 (attempt 1, 5s) =====
 <Figure size 1200x440 with 2 Axes>
 
-[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmp0ei9rmzm.png]
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmpbgq7d3ak.png]
 บันทึกรูปแล้ว: fig_ppo_clip_gae.png
 อ่านภาพขวา: ที่ lambda=0.95 คะแนนตอนจบเดินทางถึง token ต้น ๆ โดย noise ถูกหน่วง
 นี่คือเหตุผลที่ทั้งวงการใช้ 0.95 และเราก็จะใช้ค่านี้ในหัวข้อ 7.2
@@ -53,111 +53,32 @@ TH-MATH   acc=0.700 [95% CI 0.521-0.833]  th_ratio=0.71  len=309
 iapp/dpo_thai_tutorial columns: ['instruction', 'input', 'chosen', 'rejected']  n=100
 คู่ preference: 100 | เทรน 80 | held-out 20
 gsm8k-thai[train] columns: ['translated_question', 'translated_answer', 'original_question', 'original_answer']  n=7473
-[0;31m---------------------------------------------------------------------------[0m[0;31mAssertionError[0m                            Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/1707572831.py[0m in [0;36m<cell line: 0>[0;34m()[0m
-[1;32m     72[0m [0mg_q[0m [0;34m=[0m [0mpick_column[0m[0;34m([0m[0mgsm[0m[0;34m.[0m[0mcolumn_names[0m[0;34m,[0m [0;34m[[0m[0;34m"question"[0m[0;34m,[0m [0;34m"question_th"[0m[0;34m,[0m [0;34m"instruction"[0m[0;34m,[0m [0;34m"problem"[0m[0;34m,[0m [0;34m"input"[0m[0;34m,[0m [0;34m"query"[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     73[0m [0mg_a[0m [0;34m=[0m [0mpick_column[0m[0;34m([0m[0mgsm[0m[0;34m.[0m[0mcolumn_names[0m[0;34m,[0m [0;34m[[0m[0;34m"answer"[0m[0;34m,[0m [0;34m"answer_th"[0m[0;34m,[0m [0;34m"solution"[0m[0;34m,[0m [0;34m"output"[0m[0;34m,[0m [0;34m"response"[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0;32m---> 74[0;31m [0;32massert[0m [0;32mNone[0m [0;32mnot[0m [0;32min[0m [0;34m([0m[0mg_q[0m[0;34m,[0m [0mg_a[0m[0;34m)[0m[0;34m,[0m [0;34mf"schema ไม่ตรงที่คาด: {gsm.column_names}"[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m     75[0m [0;34m[0m[0m
-[1;32m     76[0m [0mN_PPO_PROMPTS[0m [0;34m=[0m [0;36m32[0m [0;32mif[0m [0mFAST_MODE[0m [0;32melse[0m [0;36m64[0m[0;34m[0m[0;34m[0m[0m
-[0;31mAssertionError[0m: schema ไม่ตรงที่คาด: ['translated_question', 'translated_answer', 'original_question', 'original_answer']
+โจทย์เลขไทย: เทรน 64 ข้อ | probe held-out 6 ข้อ
+ตัวอย่างโจทย์: ดอนขว้างดอกธนู 3 ดอก ดอกแรกปักกลางเป้าได้ 50 คะแนน ดอกที่สองพลาดเป้าไปเลยไม่ได้คะแนน ส่วนดอกที่สามได้คะแนนครึ่งหนึ่งของคะแนนกลางเป้า ดอนจะได...
+เฉลย (gold) : 75
+rule_reward('ดังนั้นคำตอบคือ ๑๒๓'            gold=  123) = 1.2  ตรงที่คาด
+rule_reward('ดังนั้นคำตอบคือ 123'            gold=  123) = 1.2  ตรงที่คาด
+rule_reward('The answer is 123'              gold=  123) = 1.0  ตรงที่คาด
+rule_reward('ดังนั้นคำตอบคือ ๑๒๔'            gold=  123) = 0.2  ตรงที่คาด
+rule_reward('คำตอบคือ 1,234 บาท'             gold= 1234) = 1.2  ตรงที่คาด
+rule_reward('ไม่มีตัวเลขเลย'                 gold=    5) = 0.2  ตรงที่คาด
+rule_reward(''                               gold=    5) = 0.0  ตรงที่คาด
+=> กรรมการผ่านการสอบทุกเคส รวมทั้งเลขไทย ๑๒๓ -- ใช้ตัดสินการเทรนได้
 
 
-===== cell 4 (attempt 1, 77s) =====
+===== cell 4 (attempt 1, 76s) =====
 trainable params: 2,294,784 || all params: 598,345,728 || trainable%: 0.3835
-epoch 1/3  loss=1.0054  train acc=0.29  (loss เริ่มควรใกล้ ln 2 = 0.693 เพราะหัวคะแนนยังสุ่มอยู่)
-epoch 2/3  loss=0.3427  train acc=0.56  (loss เริ่มควรใกล้ ln 2 = 0.693 เพราะหัวคะแนนยังสุ่มอยู่)
+epoch 1/3  loss=1.0051  train acc=0.29  (loss เริ่มควรใกล้ ln 2 = 0.693 เพราะหัวคะแนนยังสุ่มอยู่)
+epoch 2/3  loss=0.3431  train acc=0.56  (loss เริ่มควรใกล้ ln 2 = 0.693 เพราะหัวคะแนนยังสุ่มอยู่)
 epoch 3/3  loss=0.2947  train acc=0.57  (loss เริ่มควรใกล้ ln 2 = 0.693 เพราะหัวคะแนนยังสุ่มอยู่)
 
 เทรน Stage A เสร็จใน 1.2 นาที
 held-out pairwise accuracy = 80% (16/20)  [Wilson 95% CI 0.584-0.919]
-mean margin = +6.134
+mean margin = +6.127
 => CI ไม่คร่อม 0.5: RM ตัวนี้ดีกว่าโยนเหรียญอย่างมีนัยสำคัญ -- Stage A ผ่าน
    (คุณเพิ่งเทรน reward model ตัวแรกสำเร็จ ด้วยข้อมูลแค่ 80 แถว)
 
 คืน VRAM ของ reward model แล้ว -- Stage B ใช้ rule reward เป็น stand-in
 Some weights of Qwen3ForSequenceClassification were not initialized from the model checkpoint at Qwen/Qwen3-0.6B and are newly initialized: ['score.weight']
 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-/tmp/ipykernel_1416/3041917159.py:74: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
-Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
-  ep_losses.append(float(loss))
-
-
-===== cell 5 (attempt 1, 5s) =====
-value head: 1.05M พารามิเตอร์ (จิ๋วเดียวเทียบกับ policy 596M)
-[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/2316664668.py[0m in [0;36m<cell line: 0>[0;34m()[0m
-[1;32m     28[0m [0mLR_POLICY[0m [0;34m=[0m [0;36m1e-5[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     29[0m [0mLR_VALUE[0m [0;34m=[0m [0;36m1e-4[0m[0;34m[0m[0;34m[0m[0m
-[0;32m---> 30[0;31m [0mN_UPDATES[0m [0;34m=[0m [0mlen[0m[0;34m([0m[0mTRAIN_ITEMS[0m[0;34m)[0m [0;34m//[0m [0mROLL_B[0m   [0;31m# 1 รอบผ่านโจทย์ครบทุกข้อ[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m     31[0m [0;34m[0m[0m
-[1;32m     32[0m [0mpolicy_trainables[0m [0;34m=[0m [0;34m[[0m[0mp[0m [0;32mfor[0m [0mp[0m [0;32min[0m [0mpolicy[0m[0;34m.[0m[0mparameters[0m[0;34m([0m[0;34m)[0m [0;32mif[0m [0mp[0m[0;34m.[0m[0mrequires_grad[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-[0;31mNameError[0m: name 'TRAIN_ITEMS' is not defined
-
-
-===== cell 6 (attempt 1, 3s) =====
-GAE self-check   : code=[1.2705, 0.39, 0.2] == มือ [1.2704999446868896, 0.38999998569488525, 0.20000000298023224] -> ผ่าน
-GAE ขอบเขต       : lambda=0 -> TD(0), lambda=1 -> MC - V -> ผ่าน
-clip self-check  : [0.5, 1.2, -0.8, -1.5] == มือ [0.5, 1.2, -0.8, -1.5] -> ผ่าน
-clamp self-check : exp(12) ใน fp16 = inf แต่ exp(clamp(12)) จำกัดอยู่ -> ผ่าน
-standardize      : mean=0, std=1 | คะแนนเท่ากันหมด -> ศูนย์ล้วน (ไม่มีสัญญาณ) -> ผ่าน
-
-คณิตศาสตร์ทุกชิ้นตรงกับมือ -- ตอนนี้ถึงจะมีสิทธิ์กดเทรน
-
-
-===== cell 7 (attempt 1, 3s) =====
-[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/3665478316.py[0m in [0;36m<cell line: 0>[0;34m()[0m
-[1;32m     94[0m [0;31m# --- probe ตั้งต้น (ก่อน PPO ทุกชนิด) -------------------------------------------[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     95[0m [0mpolicy[0m[0;34m.[0m[0meval[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0;32m---> 96[0;31m [0mPROBE_BEFORE[0m [0;34m=[0m [0mgenerate_probe[0m[0;34m([0m[0mPROBE_ITEMS[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m     97[0m [0mprint[0m[0;34m([0m[0;34m"ตัวอย่างคำตอบตั้งต้นบนโจทย์ held-out:"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     98[0m [0mprint[0m[0;34m([0m[0;34m"  "[0m[0;34m,[0m [0mPROBE_BEFORE[0m[0;34m[[0m[0;36m0[0m[0;34m][0m[0;34m[[0m[0;34m"text"[0m[0;34m][0m[0;34m[[0m[0;34m:[0m[0;36m200[0m[0;34m][0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0mchr[0m[0;34m([0m[0;36m10[0m[0;34m)[0m[0;34m,[0m [0;34m" "[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0;31mNameError[0m: name 'PROBE_ITEMS' is not defined
-
-
-===== cell 8 (attempt 1, 2s) =====
-[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/1061685924.py[0m in [0;36m<cell line: 0>[0;34m()[0m
-[1;32m      2[0m [0;31m# หัวข้อ 9.1 -- ablation: beta = 0 (ไม่มีสายจูง) + hacking exhibits[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      3[0m [0;31m# -----------------------------------------------------------------------------[0m[0;34m[0m[0;34m[0m[0m
-[0;32m----> 4[0;31m [0mHIST_NOKL[0m[0;34m,[0m [0mTIME_NOKL[0m [0;34m=[0m [0mrun_ppo[0m[0;34m([0m[0;36m0.0[0m[0;34m,[0m [0mtag[0m[0;34m=[0m[0;34m"beta=0 (ablation)"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m      5[0m [0mPROBE_NOKL[0m [0;34m=[0m [0mgenerate_probe[0m[0;34m([0m[0mPROBE_ITEMS[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      6[0m [0;34m[0m[0m
-[0;32m/tmp/ipykernel_1416/3665478316.py[0m in [0;36mrun_ppo[0;34m(beta, tag)[0m
-[1;32m     40[0m [0;32mdef[0m [0mrun_ppo[0m[0;34m([0m[0mbeta[0m[0;34m,[0m [0mtag[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     41[0m     [0;34m"""เทรน PPO หนึ่งรอบเต็มจากสภาพตั้งต้นเดิมเป๊ะ -- คืน history ต่อ update"""[0m[0;34m[0m[0;34m[0m[0m
-[0;32m---> 42[0;31m     [0mrestore_initial_state[0m[0;34m([0m[0;34m)[0m                    [0;31m# ทุกรอบเริ่มจากจุดเดียวกัน -- ablation ที่ยุติธรรม[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m     43[0m     [0mopt_pi[0m[0;34m,[0m [0mopt_v[0m[0;34m,[0m [0msc[0m [0;34m=[0m [0mfresh_optim_and_scaler[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     44[0m     [0mpolicy[0m[0;34m.[0m[0meval[0m[0;34m([0m[0;34m)[0m                              [0;31m# ปิด dropout -- gradient ยังไหลปกติ[0m[0;34m[0m[0;34m[0m[0m
-[0;31mNameError[0m: name 'restore_initial_state' is not defined
-
-
-===== cell 9 (attempt 1, 4s) =====
-<Figure size 1350x420 with 3 Axes>
-
-[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmp5w343l8s.png]
-[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/523019137.py[0m in [0;36m<cell line: 0>[0;34m()[0m
-[1;32m     11[0m ]
-[1;32m     12[0m [0;32mfor[0m [0max[0m[0;34m,[0m [0;34m([0m[0mkey[0m[0;34m,[0m [0mtitle[0m[0;34m,[0m [0msubtitle[0m[0;34m)[0m [0;32min[0m [0mzip[0m[0;34m([0m[0maxes[0m[0;34m,[0m [0mpanels[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0;32m---> 13[0;31m     for hist, color, label in [(HIST_KL, "#2563eb", f"β = {BETA_KL} (มีสายจูง)"),
-[0m[1;32m     14[0m                                (HIST_NOKL, "#dc2626", "β = 0 (ถอดสายจูง)")]:
-[1;32m     15[0m         [0mxs[0m [0;34m=[0m [0;34m[[0m[0mh[0m[0;34m[[0m[0;34m"update"[0m[0;34m][0m [0;32mfor[0m [0mh[0m [0;32min[0m [0mhist[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-[0;31mNameError[0m: name 'HIST_KL' is not defined
-
-
-===== cell 10 (attempt 1, 2s) =====
-[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/1590470603.py[0m in [0;36m<cell line: 0>[0;34m()[0m
-[1;32m      3[0m [0;31m# -----------------------------------------------------------------------------[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      4[0m [0;31m# ตอนนี้น้ำหนักใน policy คือผลของรอบ beta=0 (รันทีหลัง) -- ย้อนกลับไปรอบมีสายจูงก่อน[0m[0;34m[0m[0;34m[0m[0m
-[0;32m----> 5[0;31m [0mload_policy_state[0m[0;34m([0m[0mSTATE_AFTER_KL[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m      6[0m [0mpolicy[0m[0;34m.[0m[0meval[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      7[0m [0;34m[0m[0m
-[0;31mNameError[0m: name 'load_policy_state' is not defined
-
-
-===== cell 11 (attempt 1, 2s) =====
-[0;31m---------------------------------------------------------------------------[0m[0;31mNameError[0m                                 Traceback (most recent call last)[0;32m/tmp/ipykernel_1416/771641739.py[0m in [0;36m<cell line: 0>[0;34m()[0m
-[1;32m     29[0m         [0;34m"c2"[0m[0;34m:[0m [0mC2[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     30[0m         [0;34m"ppo_epochs"[0m[0;34m:[0m [0mPPO_EPOCHS[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-[0;32m---> 31[0;31m         [0;34m"n_updates"[0m[0;34m:[0m [0mN_UPDATES[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m     32[0m         [0;34m"rollout_batch"[0m[0;34m:[0m [0mROLL_B[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     33[0m         [0;34m"gen_max_new_tokens"[0m[0;34m:[0m [0mGEN_MAX_NEW[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-[0;31mNameError[0m: name 'N_UPDATES' is not defined
 
