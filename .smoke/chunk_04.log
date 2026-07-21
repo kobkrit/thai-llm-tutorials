@@ -1,0 +1,911 @@
+
+===== cell 0 (attempt 1, 60s) =====
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/10.4 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m4.8/10.4 MB[0m [31m142.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m10.4/10.4 MB[0m [31m198.3 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10.4/10.4 MB[0m [31m111.0 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/354.7 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m354.7/354.7 kB[0m [31m37.0 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/491.2 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m491.2/491.2 kB[0m [31m46.7 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/411.0 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m411.0/411.0 kB[0m [31m43.2 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/336.4 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m336.4/336.4 kB[0m [31m31.0 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/76.1 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.2/76.1 MB[0m [31m158.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m14.1/76.1 MB[0m [31m231.1 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m23.1/76.1 MB[0m [31m259.0 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m31.5/76.1 MB[0m [31m242.7 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m40.2/76.1 MB[0m [31m243.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━[0m [32m49.0/76.1 MB[0m [31m248.5 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m55.7/76.1 MB[0m [31m201.2 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m61.5/76.1 MB[0m [31m157.0 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━[0m [32m66.3/76.1 MB[0m [31m144.8 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m73.7/76.1 MB[0m [31m186.0 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m76.1/76.1 MB[0m [31m211.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m76.1/76.1 MB[0m [31m11.1 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.3 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/1.3 MB[0m [31m80.5 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/8.6 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m7.9/8.6 MB[0m [31m238.9 MB/s[0m eta [36m0:00:01[0m
+[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m8.6/8.6 MB[0m [31m231.4 MB/s[0m eta [36m0:00:01[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8.6/8.6 MB[0m [31m122.0 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/183.9 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183.9/183.9 kB[0m [31m21.1 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/566.4 kB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m566.4/566.4 kB[0m [31m48.0 MB/s[0m eta [36m0:00:00[0m
+[?25h[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.1 MB[0m [31m?[0m eta [36m-:--:--[0m
+[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.1/3.1 MB[0m [31m119.6 MB/s[0m eta [36m0:00:00[0m
+[?25h[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+gradio 6.20.0 requires huggingface-hub<2.0,>=1.2.0, but you have huggingface-hub 0.36.2 which is incompatible.
+gcsfs 2025.3.0 requires fsspec==2025.3.0, but you have fsspec 2024.12.0 which is incompatible.[0m[31m
+[0m  Installing build dependencies ... [?25l[?25hdone
+  Checking if build backend supports build_editable ... [?25l[?25hdone
+  Getting requirements to build editable ... [?25l[?25hdone
+  Preparing editable metadata (pyproject.toml) ... [?25l[?25hdone
+  Building editable for kobeval (pyproject.toml) ... [?25l[?25hdone
+GPU            : Tesla T4
+Compute cap.   : sm_75
+VRAM           : 14.6 GB
+SUPPORTS_BF16  : False   (native; torch บอกว่า True เพราะนับ emulation ด้วย)
+torch          : 2.11.0+cu128
+
+--> DTYPE      : torch.float16
+--> ATTN_IMPL  : sdpa
+--> fp16=True, bf16=False  (ใช้คู่นี้กับ TrainingArguments)
+Thai font      : Loma
+
+kobeval contract: {'do_sample': False, 'max_new_tokens': 256, 'enable_thinking': False, 'seed': 42, 'version': 'kobeval-th-v1'}
+KobEval-TH checksum ok: True
+
+
+===== cell 1 (attempt 1, 245s) =====
+tokenizer_config.json: 0.00B [00:00, ?B/s]
+vocab.json: 0.00B [00:00, ?B/s]
+merges.txt: 0.00B [00:00, ?B/s]
+tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]
+config.json:   0%|          | 0.00/726 [00:00<?, ?B/s]
+model.safetensors:   0%|          | 0.00/1.50G [00:00<?, ?B/s]
+generation_config.json:   0%|          | 0.00/239 [00:00<?, ?B/s]
+โหลดโมเดลแล้ว: Qwen/Qwen3-0.6B
+dtype จริงของ parameter: torch.float16
+จำนวนพารามิเตอร์: 596.0M
+--- ค่าจริงจาก config ของ Qwen3-0.6B (ไม่ใช่ค่าที่จำมา) ---
+  hidden_size             : 1024
+  intermediate_size       : 3072
+  num_hidden_layers       : 28
+  num_attention_heads     : 16
+  num_key_value_heads     : 8
+  head_dim                : 128
+  vocab_size              : 151936
+  max_position_embeddings : 40960
+
+VRAM ที่ใช้หลังโหลดโมเดลฐาน: 1.110 GB
+  TH-INSTR: 10/30
+  TH-INSTR: 20/30
+  TH-INSTR: 30/30
+
+ใช้เวลาวัด baseline: 203 วินาที
+TH-INSTR  acc=0.733 [95% CI 0.556-0.858]  th_ratio=0.93  len=282
+
+รวมทุก slice: acc=0.733  th_ratio=0.93
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:104: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+You are not authenticated with the Hugging Face Hub in this notebook.
+If the error persists, please let us know by opening an issue on GitHub (https://github.com/huggingface/huggingface_hub/issues/new).
+  warnings.warn(
+
+
+===== cell 2 (attempt 1, 4s) =====
+<Figure size 1150x430 with 2 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmp8enfwgpa.png]
+บันทึกรูปแล้ว: fig_dpo_loss_and_gradient.png
+ที่ Δ = 0 (โมเดลไม่มีความเห็น) loss = ln 2 = 0.693147
+นี่คือค่าที่เราจะเห็นจริงในหัวข้อ 7 ตอนที่ policy กับ reference ยังเหมือนกันเป๊ะ
+
+
+===== cell 3 (attempt 1, 5s) =====
+พารามิเตอร์ที่เทรน : 10.09M จาก 606.1M (1.67%)
+cast เป็น fp32 ไป  : 0 tensors
+
+VRAM ก่อนติด adapter : 1.110 GB
+VRAM หลังติด adapter : 1.156 GB
+ส่วนต่าง             : 0.046 GB
+
+และนี่คือประเด็นสำคัญ: reference model ไม่ได้กิน VRAM เพิ่มอีกเลยแม้แต่ไบต์เดียว
+เพราะมันคือ 'โมเดลฐานตัวเดิม' ที่เราปิด adapter ชั่วคราวเท่านั้น
+
+ตอนนี้ policy กับ reference ให้ logits เท่ากันหรือไม่: True
+ควรได้ True เพราะ LoRA ถูก init ให้ B = 0 ทำให้ adapter ยังไม่เปลี่ยนอะไรเลย
+จำข้อนี้ไว้ให้ดี เดี๋ยวมันจะสำคัญมากตอนพิสูจน์ในหัวข้อ 7.2
+
+
+===== cell 4 (attempt 1, 151s) =====
+README.md: 0.00B [00:00, ?B/s]
+dpo_thai_tutorial.json: 0.00B [00:00, ?B/s]
+Generating train split:   0%|          | 0/100 [00:00<?, ? examples/s]
+iapp/dpo_thai_tutorial columns: ['instruction', 'input', 'chosen', 'rejected']  n=100
+ได้คู่จากชุดที่ 1: 100
+README.md: 0.00B [00:00, ?B/s]
+data/train-00000-of-00002.parquet:   0%|          | 0.00/120M [00:00<?, ?B/s]
+data/train-00001-of-00002.parquet:   0%|          | 0.00/119M [00:00<?, ?B/s]
+Generating train split:   0%|          | 0/118898 [00:00<?, ? examples/s]
+wangchanx columns: ['instruction', 'context', 'output', 'type', 'context_length', 'rating', 'qc_rationale']  n=118898
+คำถามที่ผ่านการคัดกรอง: 400
+  generate 16/400 (5s)
+  generate 96/400 (33s)
+  generate 176/400 (60s)
+  generate 256/400 (87s)
+  generate 336/400 (113s)
+generate เสร็จใน 134 วินาที
+ได้คู่จากชุดที่ 2: 398
+
+รวมทั้งหมด 498 คู่ | train 423 | held-out 75
+ความยาวเฉลี่ย chosen   : 505.6 token
+ความยาวเฉลี่ย rejected : 392.4 token
+
+จดตัวเลขสองบรรทัดบนไว้ให้ดี ถ้า chosen ยาวกว่า rejected อย่างเป็นระบบตั้งแต่ต้น
+สิ่งที่โมเดลอาจเรียนคือ 'ตอบยาวไว้ก่อน' ไม่ใช่ 'ตอบดี' -- นี่คือ length bias
+
+ตัวอย่างคู่หนึ่ง:
+  chosen  : แน่นอนค่ะ ที่ดีที่สุดในการเริ่มเรียนรู้ภาษาใหม่คือการเรียนรู้พื้นฐานก่อน สำหรับภาษาญี่ปุ่นนั้น คุณควรเริ่มที่การเรียนรู้ฮิรางานะ คติวานะ และการอ่านคำภาษาญี่ปุ่น
+  rejected: เริ่มต้นเรียนรู้ภาษาญี่ปุ่นอย่างมีประสิทธิภาพ ควรเริ่มจาก **ระดับที่เข้าใจได้** ดังนี้:  ### 1. **เริ่มจากภาษาที่เข้าใจง่าย**    - ลองเริ่มด้วย **ภาษาที่มีการพู
+  th_ratio chosen=0.90 rejected=0.89
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+
+
+===== cell 5 (attempt 1, 4s) =====
+self-check | policy == reference -> loss = 0.6931471825
+self-check | ค่าที่ทฤษฎีบอก      -> ln 2 = 0.6931471806
+self-check | implicit reward ทั้งสองฝั่งเป็นศูนย์พอดี -> ผ่าน
+ไม่ mask prompt: [-39.909, -40.729, -42.288]
+mask prompt   : [-27.101, -27.475, -29.046]
+=> การ mask prompt เปลี่ยนตัวเลขจริง จุดที่ 1 ในหัวข้อ 7.1 จึงไม่ใช่เรื่องเล็ก
+
+
+===== cell 6 (attempt 1, 13s) =====
+Extracting prompt in train dataset:   0%|          | 0/423 [00:00<?, ? 
+examples/s]
+Applying chat template to train dataset:   0%|          | 0/423 [00:00<?, ? 
+examples/s]
+Tokenizing train dataset:   0%|          | 0/423 [00:00<?, ? examples/s]
+รูปร่างของ batch ที่ใช้พิสูจน์ (batch size = 1):
+  prompt_input_ids     (1, 32)
+  chosen_input_ids     (1, 501)
+  rejected_input_ids   (1, 28)
+  token ฝั่งคำตอบที่นับจริง (chosen)  : 501
+  token ฝั่งคำตอบที่นับจริง (rejected): 28
+
+Δ (margin ก่อนคูณ beta) = -12.035290   <- ต้องไม่ใช่ศูนย์ ไม่งั้นการพิสูจน์ไร้ความหมาย
+implicit reward chosen  = -1.102203
+implicit reward rejected= +0.101326
+
+loss ที่เราเขียนเอง : 1.46599579
+loss จาก TRL       : 1.46601820
+ผลต่าง             : 2.241e-05
+
+ตรงกัน: 1.4659957885742188 1.4660181999206543
+=> สมการที่อนุมานมาทั้งหัวข้อ 3 ให้ค่าเท่ากับไลบรารีที่คนทั้งโลกใช้
+
+คืนสภาพโมเดลเรียบร้อย พร้อมเทรนจริง
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+
+
+===== cell 7 (attempt 1, 502s) =====
+[ 2/52 : < :, Epoch 0.04/2]                                                     
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 3/52 00:08 < 07:15, 0.11 it/s, Epoch 0.08/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 4/52 00:20 < 08:13, 0.10 it/s, Epoch 0.11/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 5/52 00:31 < 08:11, 0.10 it/s, Epoch 0.15/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 6/52 00:42 < 08:03, 0.10 it/s, Epoch 0.19/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+[ 7/52 00:52 < 07:55, 0.09 it/s, Epoch 0.23/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+                     
+[ 8/52 01:00 < 07:24, 0.10 it/s, Epoch 0.26/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+                     
+[ 9/52 01:11 < 07:21, 0.10 it/s, Epoch 0.30/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+                     
+[10/52 01:22 < 07:15, 0.10 it/s, Epoch 0.34/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+                     
+[11/52 01:30 < 06:51, 0.10 it/s, Epoch 0.38/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+                     
+[12/52 01:42 < 06:48, 0.10 it/s, Epoch 0.42/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+                     
+[13/52 01:51 < 06:35, 0.10 it/s, Epoch 0.45/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+                     
+[14/52 01:59 < 06:18, 0.10 it/s, Epoch 0.49/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+                     
+[15/52 02:11 < 06:13, 0.10 it/s, Epoch 0.53/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+                     
+[16/52 02:19 < 05:59, 0.10 it/s, Epoch 0.57/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+                     
+[17/52 02:31 < 05:53, 0.10 it/s, Epoch 0.60/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+                     
+[18/52 02:40 < 05:41, 0.10 it/s, Epoch 0.64/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+                     
+[19/52 02:48 < 05:26, 0.10 it/s, Epoch 0.68/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+                     
+[20/52 02:59 < 05:18, 0.10 it/s, Epoch 0.72/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+                     
+[21/52 03:09 < 05:08, 0.10 it/s, Epoch 0.75/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+                     
+[22/52 03:16 < 04:55, 0.10 it/s, Epoch 0.79/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+                     
+[23/52 03:23 < 04:41, 0.10 it/s, Epoch 0.83/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+                     
+[24/52 03:34 < 04:33, 0.10 it/s, Epoch 0.87/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+                     
+[25/52 03:45 < 04:24, 0.10 it/s, Epoch 0.91/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+                     
+[26/52 03:54 < 04:13, 0.10 it/s, Epoch 0.94/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+                     
+[27/52 04:02 < 04:02, 0.10 it/s, Epoch 0.98/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+                     
+[28/52 04:06 < 03:47, 0.11 it/s, Epoch 1/2]                                     
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+                     
+[29/52 04:16 < 03:38, 0.11 it/s, Epoch 1.04/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+                     
+[30/52 04:26 < 03:29, 0.11 it/s, Epoch 1.08/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+                     
+[31/52 04:33 < 03:18, 0.11 it/s, Epoch 1.11/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+                     
+[32/52 04:43 < 03:09, 0.11 it/s, Epoch 1.15/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+                     
+[33/52 04:54 < 03:00, 0.11 it/s, Epoch 1.19/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+                     
+[34/52 05:07 < 02:52, 0.10 it/s, Epoch 1.23/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+                     
+[35/52 05:18 < 02:44, 0.10 it/s, Epoch 1.26/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+                     
+[36/52 05:28 < 02:34, 0.10 it/s, Epoch 1.30/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+                     
+[37/52 05:37 < 02:24, 0.10 it/s, Epoch 1.34/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+                     
+[38/52 05:47 < 02:15, 0.10 it/s, Epoch 1.38/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+                     
+[39/52 05:58 < 02:06, 0.10 it/s, Epoch 1.42/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+                     
+[40/52 06:07 < 01:56, 0.10 it/s, Epoch 1.45/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+                     
+[41/52 06:17 < 01:46, 0.10 it/s, Epoch 1.49/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+                     
+[42/52 06:27 < 01:36, 0.10 it/s, Epoch 1.53/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+                     
+[43/52 06:38 < 01:27, 0.10 it/s, Epoch 1.57/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+                     
+[44/52 06:47 < 01:17, 0.10 it/s, Epoch 1.60/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+                     
+[45/52 06:55 < 01:07, 0.10 it/s, Epoch 1.64/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+                     
+[46/52 07:04 < 00:57, 0.10 it/s, Epoch 1.68/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+                     
+[47/52 07:16 < 00:48, 0.10 it/s, Epoch 1.72/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+ 45    0.348600      
+                     
+[48/52 07:24 < 00:38, 0.10 it/s, Epoch 1.75/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+ 45    0.348600      
+                     
+[49/52 07:34 < 00:29, 0.10 it/s, Epoch 1.79/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+ 45    0.348600      
+                     
+[50/52 07:45 < 00:19, 0.10 it/s, Epoch 1.83/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+ 45    0.348600      
+                     
+[51/52 07:53 < 00:09, 0.10 it/s, Epoch 1.87/2]                                  
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+ 45    0.348600      
+                     
+[52/52 08:02, Epoch 1.91/2]                                                     
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+ 45    0.348600      
+ 50    0.370900      
+                     
+[52/52 08:09, Epoch 1.94/2]                                                     
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+ 45    0.348600      
+ 50    0.370900      
+                     
+[52/52 08:09, Epoch 1/2]                                                        
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+ 5     0.692700      
+ 10    0.667500      
+ 15    0.579700      
+ 20    0.533600      
+ 25    0.461000      
+ 30    0.319500      
+ 35    0.423700      
+ 40    0.373400      
+ 45    0.348600      
+ 50    0.370900      
+                     
+
+เวลาเทรน  : 8.3 นาที
+VRAM peak : 12.65 GB
+
+ค่าสุดท้ายจาก log ของ TRL:
+  rewards/chosen       +0.7391
+  rewards/rejected     -0.2049
+  rewards/margins      +0.9440
+  rewards/accuracies   +0.8375
+
+
+===== cell 8 (attempt 1, 5s) =====
+<Figure size 1150x720 with 4 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmpwjwujxir.png]
+loss step แรก = 0.6927  (ควรใกล้ ln 2 = 0.6931 เพราะตอนเริ่ม policy == reference)
+loss step สุดท้าย = 0.3709
+
+
+===== cell 9 (attempt 1, 35s) =====
+วัด held-out 75 คู่ ใน 32 วินาที
+preference accuracy = 97.3% [95% CI 90.8-99.3]  (73/75)
+mean margin   = +1.0155
+median margin = +1.0034
+สัดส่วนคู่ที่ margin เกือบเป็นศูนย์ = 0.0%
+
+ถ้า mean สวยแต่ median แถวศูนย์ แปลว่าค่าเฉลี่ยถูกลากด้วยคู่ไม่กี่คู่
+นั่นคือเหตุผลที่เราวาด histogram ไม่ใช่รายงานแค่ค่าเฉลี่ย
+<Figure size 750x430 with 1 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmpv788vg2b.png]
+
+
+===== cell 10 (attempt 1, 56s) =====
+generate ก่อน/หลัง เสร็จใน 53 วินาที
+
+              tokens     chars  th_ratio
+----------------------------------------
+ก่อน DPO       114.2     212.0     0.918
+หลัง DPO       115.2     211.2     0.931
+ส่วนต่าง        +1.0      -0.8    +0.013
+
+ความยาวเปลี่ยนไป +0.9%
+ถ้าเพิ่มขึ้นมาก ให้สงสัยไว้ก่อนว่าส่วนหนึ่งของ 'คุณภาพที่ดีขึ้น' คือ length bias
+(ในชุดข้อมูลของเรา chosen ยาวเฉลี่ย 505.6 token ส่วน rejected ยาว 392.4 token)
+
+ตัวอย่างคำตอบเดียวกัน:
+  ก่อน: เริ่มต้นเรียนรู้ภาษาญี่ปุ่นอย่างมีประสิทธิภาพ ควรเริ่มจาก **ระดับที่เข้าใจได้** ดังนี้:  ### 1. **เริ่มจากภาษาที่เข้าใจง่าย**    - ลองเริ่มด้วย **ภาษาที่มีการพูดและเขียนง่าย** เช่น
+  หลัง: เริ่มต้นเรียนรู้ภาษาญี่ปุ่นอย่างมีประสิทธิภาพ คือการเริ่มต้นด้วยความเข้าใจและตั้งเป้าหมายที่ชัดเจน ต่อไปนี้คือขั้นตอนที่คุณสามารถเริ่มต้นได้:  ### 1. **หาเวลาที่เหมาะ** - หาเวลาที่
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+
+
+===== cell 11 (attempt 1, 369s) =====
+  TH-INSTR: 10/30
+  TH-INSTR: 20/30
+  TH-INSTR: 30/30
+ใช้เวลาวัดผลหลัง DPO: 366 วินาที
+
+| Model | TH-KNOW | TH-MATH | TH-INSTR | th_ratio | PPL | VRAM peak | Train time |
+|---|---|---|---|---|---|---|---|
+| Qwen3-0.6B (baseline) | - | - | 73.3% | 0.93 | 21.3 | 1.27 GB | - |
+| Qwen3-0.6B + DPO (β=0.1) | - | - | 76.7% | 0.93 | 21.0 | 12.65 GB | 8.3 min |
+
+McNemar (baseline -> new):
+  TH-INSTR: fixed=2 broke=1 p=1.0000 improved  [n<25: treat p as indicative]
+<Figure size 510x460 with 1 Axes>
+
+[Image saved to: /var/folders/qw/zz252tmd3r97k9hzmv_gwbv40000gn/T/tmpw1rzerfl.png]
+(<Figure size 510x460 with 1 Axes>,
+ <Axes: title={'center': 'ตอนที่ 4: ก่อน vs หลัง DPO (β=0.1)\n(error bars = Wilson
+95% CI, n=30 per slice)'}, ylabel='Accuracy (%)'>)
+
+
+===== cell 12 (attempt 1, 4s) =====
+เขียนไฟล์แล้ว: results.json
+{
+  "manual_vs_trl": {
+    "loss_manual": 1.4659957885742188,
+    "loss_trl": 1.4660181999206543,
+    "abs_diff": 2.2411346435546875e-05,
+    "atol": 0.0001,
+    "passed": true
+  },
+  "preference": {
+    "n": 75,
+    "n_correct": 73,
+    "accuracy": 0.9733333333333334,
+    "ci_low": 0.9078833515671513,
+    "ci_high": 0.9926564649763995,
+    "mean_margin": 1.0155364049474398,
+    "median_margin": 1.0034186840057373,
+    "frac_margin_near_zero": 0.0
+  },
+  "generation": {
+    "before": {
+      "n": 24,
+      "mean_tokens": 114.16666666666667,
+      "mean_chars": 211.95833333333334,
+      "th_ratio": 0.918356467291522
+    },
+    "after": {
+      "n": 24,
+      "mean_tokens": 115.20833333333333,
+      "mean_chars": 211.16666666666666,
+      "th_ratio": 0.9311111862220053
+    }
+  }
+}
+
